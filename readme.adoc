@@ -1,0 +1,6 @@
+:imagesdir: ./doc/images
+:toc: macro
+
+= PRSG RoboMagellan Logs for Victoria
+
+
