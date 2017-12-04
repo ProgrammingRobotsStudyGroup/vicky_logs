@@ -1,0 +1,46 @@
+[rospy.client][INFO] 2017-03-09 10:44:58,662: init_node, name[/monitor], pid[6694]
+[xmlrpc][INFO] 2017-03-09 10:44:58,664: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 10:44:58,665: Started XML-RPC server [http://10.42.0.1:44912/]
+[rospy.init][INFO] 2017-03-09 10:44:58,666: ROS Slave URI: [http://10.42.0.1:44912/]
+[rospy.impl.masterslave][INFO] 2017-03-09 10:44:58,668: _ready: http://10.42.0.1:44912/
+[xmlrpc][INFO] 2017-03-09 10:44:58,673: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 10:44:58,676: Registering with master node http://10.42.0.1:11311
+[rospy.init][INFO] 2017-03-09 10:44:58,769: registered with master
+[rospy.rosout][INFO] 2017-03-09 10:44:58,770: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 10:44:58,779: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 10:44:58,791: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 10:44:59,021: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,199: topic[/mavros/local_position/pose] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,213: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,236: topic[/mavros/state] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,255: topic[/mavros/battery] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,374: topic[/playfile] adding connection to [/chatty], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,381: topic[/play] adding connection to [/chatty], count 0
+[rosout][INFO] 2017-03-09 10:44:59,397: MANUAL
+[rosout][INFO] 2017-03-09 10:44:59,399: Arm state: DISARMED
+[rosout][INFO] 2017-03-09 10:45:59,277: AUTO
+[rosout][INFO] 2017-03-09 10:45:59,279: Arm state: ARMED
+[rospy.core][INFO] 2017-03-09 10:46:35,768: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 10:46:35,804: topic[/play] removing connection to /chatty
+[rospy.internal][INFO] 2017-03-09 10:46:35,806: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 10:46:35,807: topic[/playfile] removing connection to /chatty
+[rospy.internal][INFO] 2017-03-09 10:46:35,811: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.42.0.1:41083/
+[rospy.internal][INFO] 2017-03-09 10:46:35,812: topic[/mavros/state] removing connection to http://10.42.0.1:41083/
+[rospy.internal][WARNING] 2017-03-09 10:46:35,815: Unknown error initiating TCP/IP socket to 10.42.0.1:60986 (http://10.42.0.1:41083/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-03-09 10:46:35,815: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 820, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-03-09 10:46:35,817: topic[/mavros/local_position/pose] removing connection to http://10.42.0.1:41083/
+[rospy.internal][INFO] 2017-03-09 10:46:35,818: topic[/mavros/battery] removing connection to http://10.42.0.1:41083/
+[rospy.impl.masterslave][INFO] 2017-03-09 10:46:35,818: signal-2
+[rospy.core][INFO] 2017-03-09 10:46:36,402: signal_shutdown [atexit]

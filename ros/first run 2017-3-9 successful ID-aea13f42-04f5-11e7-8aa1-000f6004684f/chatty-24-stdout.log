@@ -1,0 +1,29 @@
+/home/robot/catkin_ws/src/robo_magellan/scripts/soundmapfiles.yaml
+[INFO] [1489083941.272474]: /chatty Play token: AUTO
+[INFO] [1489083941.274477]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/auto.wav
+[INFO] [1489083941.874486]: /chatty Play token: ARMED
+[INFO] [1489083941.876097]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/armed.wav
+[INFO] [1489083981.270793]: /chatty Play token: RTL
+[INFO] [1489083981.271982]: No enum named: RTL
+[INFO] [1489083991.269973]: /chatty Play token: HOLD
+[INFO] [1489083991.271477]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[INFO] [1489084065.271512]: /chatty Play token: DISARMED
+[INFO] [1489084065.272825]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[INFO] [1489084231.272196]: /chatty Play token: AUTO
+[INFO] [1489084231.274018]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/auto.wav
+[INFO] [1489084233.271736]: /chatty Play token: ARMED
+[INFO] [1489084233.273133]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/armed.wav
+[INFO] [1489084297.271081]: /chatty Play token: RTL
+[INFO] [1489084297.272903]: No enum named: RTL
+[INFO] [1489084353.270751]: /chatty Play token: HOLD
+[INFO] [1489084353.272536]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[INFO] [1489084355.271728]: /chatty Play token: DISARMED
+[INFO] [1489084355.273252]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[INFO] [1489084397.270700]: /chatty Play token: AUTO
+[INFO] [1489084397.271863]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/auto.wav
+[INFO] [1489084398.459429]: /chatty Play token: ARMED
+[INFO] [1489084398.461025]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/armed.wav
+[INFO] [1489084517.271413]: /chatty Play token: HOLD
+[INFO] [1489084517.272988]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[INFO] [1489084521.271351]: /chatty Play token: DISARMED
+[INFO] [1489084521.273139]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav

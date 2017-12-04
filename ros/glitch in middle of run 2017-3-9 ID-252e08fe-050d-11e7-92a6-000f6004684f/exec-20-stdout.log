@@ -1,0 +1,76 @@
+/home/robot/catkin_ws/src/robo_magellan/scripts/soundmapfiles.yaml
+[INFO] [1489094369.685441]: /exec parse_msg_from_state: x,START_EXEC,x
+[INFO] [1489094369.687399]: Entered state: Start
+[INFO] [1489094369.689140]: /mavros/cmd/arming: False
+[INFO] [1489094369.690155]: /mavros/set_mode: HOLD
+[INFO] [1489094369.697340]: Entered state: Following_waypoint
+[INFO] [1489094369.698714]: /mavros/set_mode: HOLD
+[INFO] [1489094369.719460]: In Following_waypoint state. Countdown: 130
+[INFO] [1489094371.715091]: In Following_waypoint state. Countdown: 129
+[INFO] [1489094373.713536]: In Following_waypoint state. Countdown: 128
+[INFO] [1489094375.713313]: In Following_waypoint state. Countdown: 127
+[INFO] [1489094377.712745]: In Following_waypoint state. Countdown: 126
+[INFO] [1489094379.714633]: In Following_waypoint state. Countdown: 125
+[INFO] [1489094381.714347]: In Following_waypoint state. Countdown: 124
+[INFO] [1489094383.714489]: In Following_waypoint state. Countdown: 123
+[INFO] [1489094385.714522]: In Following_waypoint state. Countdown: 122
+[INFO] [1489094387.714369]: In Following_waypoint state. Countdown: 121
+[INFO] [1489094389.714551]: In Following_waypoint state. Countdown: 120
+[INFO] [1489094391.714385]: In Following_waypoint state. Countdown: 119
+[INFO] [1489094393.713702]: In Following_waypoint state. Countdown: 118
+[INFO] [1489094395.712523]: In Following_waypoint state. Countdown: 117
+[INFO] [1489094397.714233]: In Following_waypoint state. Countdown: 116
+[INFO] [1489094399.714380]: In Following_waypoint state. Countdown: 115
+[INFO] [1489094401.714385]: In Following_waypoint state. Countdown: 114
+[INFO] [1489094403.713781]: In Following_waypoint state. Countdown: 113
+[INFO] [1489094405.714516]: In Following_waypoint state. Countdown: 112
+[INFO] [1489094407.714252]: In Following_waypoint state. Countdown: 111
+[INFO] [1489094409.714545]: In Following_waypoint state. Countdown: 110
+[INFO] [1489094411.713738]: In Following_waypoint state. Countdown: 109
+[INFO] [1489094413.714331]: In Following_waypoint state. Countdown: 108
+[INFO] [1489094415.714359]: In Following_waypoint state. Countdown: 107
+[INFO] [1489094417.713822]: In Following_waypoint state. Countdown: 106
+[INFO] [1489094419.713248]: In Following_waypoint state. Countdown: 105
+[INFO] [1489094421.713756]: In Following_waypoint state. Countdown: 104
+[INFO] [1489094423.713260]: In Following_waypoint state. Countdown: 103
+[INFO] [1489094425.713044]: In Following_waypoint state. Countdown: 102
+[INFO] [1489094427.713127]: In Following_waypoint state. Countdown: 101
+[INFO] [1489094429.714071]: In Following_waypoint state. Countdown: 100
+[INFO] [1489094431.714255]: In Following_waypoint state. Countdown: 99
+[INFO] [1489094433.714555]: In Following_waypoint state. Countdown: 98
+[INFO] [1489094435.713246]: In Following_waypoint state. Countdown: 97
+[INFO] [1489094437.713406]: In Following_waypoint state. Countdown: 96
+[INFO] [1489094439.712684]: In Following_waypoint state. Countdown: 95
+[INFO] [1489094441.713890]: In Following_waypoint state. Countdown: 94
+[INFO] [1489094443.713958]: In Following_waypoint state. Countdown: 93
+[INFO] [1489094445.712554]: In Following_waypoint state. Countdown: 92
+[INFO] [1489094447.713975]: In Following_waypoint state. Countdown: 91
+[INFO] [1489094449.712381]: In Following_waypoint state. Countdown: 90
+[INFO] [1489094451.712477]: In Following_waypoint state. Countdown: 89
+[INFO] [1489094453.713336]: In Following_waypoint state. Countdown: 88
+[INFO] [1489094455.712791]: In Following_waypoint state. Countdown: 87
+[INFO] [1489094457.713991]: In Following_waypoint state. Countdown: 86
+[INFO] [1489094459.714185]: In Following_waypoint state. Countdown: 85
+[INFO] [1489094461.713852]: In Following_waypoint state. Countdown: 84
+[INFO] [1489094463.713969]: In Following_waypoint state. Countdown: 83
+[INFO] [1489094465.712692]: In Following_waypoint state. Countdown: 82
+[INFO] [1489094467.712630]: In Following_waypoint state. Countdown: 81
+[INFO] [1489094469.713398]: In Following_waypoint state. Countdown: 80
+[INFO] [1489094471.714553]: In Following_waypoint state. Countdown: 79
+[INFO] [1489094473.713025]: In Following_waypoint state. Countdown: 78
+[INFO] [1489094475.712912]: In Following_waypoint state. Countdown: 77
+[INFO] [1489094477.713630]: In Following_waypoint state. Countdown: 76
+[INFO] [1489094479.714100]: In Following_waypoint state. Countdown: 75
+[INFO] [1489094481.714387]: In Following_waypoint state. Countdown: 74
+[INFO] [1489094483.713978]: In Following_waypoint state. Countdown: 73
+[INFO] [1489094485.714091]: In Following_waypoint state. Countdown: 72
+[INFO] [1489094487.713005]: In Following_waypoint state. Countdown: 71
+[INFO] [1489094489.713345]: In Following_waypoint state. Countdown: 70
+[INFO] [1489094489.840663]: /exec parse_msg_from_state: Following_waypoint,DONE,near_cone
+[INFO] [1489094491.712438]: In Following_waypoint state. Countdown: 69
+[INFO] [1489094493.713646]: Entered state: Failure
+[INFO] [1489094493.714955]: /mavros/set_mode: HOLD
+[INFO] [1489094493.725492]: /mavros/cmd/arming: False
+[INFO] [1489094493.805901]: success: True
+result: 0
+('reached ', 'End')

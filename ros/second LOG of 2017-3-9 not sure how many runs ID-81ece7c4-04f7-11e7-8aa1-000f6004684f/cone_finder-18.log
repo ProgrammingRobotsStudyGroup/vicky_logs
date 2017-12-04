@@ -1,0 +1,113 @@
+[rospy.client][INFO] 2017-03-09 10:37:58,362: init_node, name[/cone_finder], pid[25390]
+[xmlrpc][INFO] 2017-03-09 10:37:58,364: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 10:37:58,366: Started XML-RPC server [http://10.42.0.1:33044/]
+[rospy.impl.masterslave][INFO] 2017-03-09 10:37:58,367: _ready: http://10.42.0.1:33044/
+[rospy.init][INFO] 2017-03-09 10:37:58,366: ROS Slave URI: [http://10.42.0.1:33044/]
+[rospy.registration][INFO] 2017-03-09 10:37:58,370: Registering with master node http://10.42.0.1:11311
+[rospy.registration][INFO] 2017-03-09 10:37:58,374: Registering publisher topic [/cone_finder/depthCamInfo] type [sensor_msgs/CameraInfo] with master
+[xmlrpc][INFO] 2017-03-09 10:37:58,371: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 10:37:58,384: Registering publisher topic [/cone_finder/colorCamInfo] type [sensor_msgs/CameraInfo] with master
+[rospy.registration][INFO] 2017-03-09 10:37:58,391: Registering publisher topic [/cone_finder/depthImage] type [sensor_msgs/Image] with master
+[rospy.registration][INFO] 2017-03-09 10:37:58,399: Registering publisher topic [/cone_finder/locations] type [cone_finder/location_msgs] with master
+[rospy.registration][INFO] 2017-03-09 10:37:58,409: Registering publisher topic [/cone_finder/colorImage] type [sensor_msgs/Image] with master
+[rospy.init][INFO] 2017-03-09 10:37:58,474: registered with master
+[rospy.rosout][INFO] 2017-03-09 10:37:58,475: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 10:37:58,483: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 10:37:58,492: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 10:37:58,588: topic[/camera/color/image_raw] adding connection to [http://10.42.0.1:39866/], count 0
+[rosout][INFO] 2017-03-09 10:37:58,596: [RosColorDepth] Initialized.
+[rospy.internal][INFO] 2017-03-09 10:37:58,719: topic[/camera/color/camera_info] adding connection to [http://10.42.0.1:39866/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,880: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:59,220: topic[/camera/depth/image_raw] adding connection to [http://10.42.0.1:39866/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:59,335: topic[/camera/depth/camera_info] adding connection to [http://10.42.0.1:39866/], count 0
+[rospy.internal][INFO] 2017-03-09 10:38:02,035: topic[/cone_finder/colorImage] adding connection to [/image_view], count 0
+[rosout][INFO] 2017-03-09 10:38:08,002: FS = 0.072
+[rosout][INFO] 2017-03-09 10:38:14,672: FS = 0.066
+[rosout][INFO] 2017-03-09 10:38:21,306: FS = 0.067
+[rosout][INFO] 2017-03-09 10:38:27,964: FS = 0.066
+[rosout][INFO] 2017-03-09 10:38:34,633: FS = 0.066
+[rosout][INFO] 2017-03-09 10:38:41,296: FS = 0.067
+[rosout][INFO] 2017-03-09 10:38:47,962: FS = 0.066
+[rosout][INFO] 2017-03-09 10:38:54,631: FS = 0.067
+[rosout][INFO] 2017-03-09 10:39:01,291: FS = 0.067
+[rosout][INFO] 2017-03-09 10:39:07,962: FS = 0.067
+[rosout][INFO] 2017-03-09 10:39:14,624: FS = 0.066
+[rosout][INFO] 2017-03-09 10:39:21,290: FS = 0.065
+[rosout][INFO] 2017-03-09 10:39:27,957: FS = 0.067
+[rosout][INFO] 2017-03-09 10:39:34,630: FS = 0.067
+[rosout][INFO] 2017-03-09 10:39:41,293: FS = 0.066
+[rosout][INFO] 2017-03-09 10:39:47,953: FS = 0.066
+[rosout][INFO] 2017-03-09 10:39:54,616: FS = 0.066
+[rosout][INFO] 2017-03-09 10:40:01,243: FS = 0.065
+[rosout][INFO] 2017-03-09 10:40:07,878: FS = 0.066
+[rosout][INFO] 2017-03-09 10:40:14,518: FS = 0.066
+[rosout][INFO] 2017-03-09 10:40:21,143: FS = 0.066
+[rosout][INFO] 2017-03-09 10:40:27,778: FS = 0.066
+[rosout][INFO] 2017-03-09 10:40:34,445: FS = 0.066
+[rosout][INFO] 2017-03-09 10:40:41,107: FS = 0.066
+[rosout][INFO] 2017-03-09 10:40:47,741: FS = 0.065
+[rosout][INFO] 2017-03-09 10:40:54,403: FS = 0.065
+[rosout][INFO] 2017-03-09 10:41:01,069: FS = 0.065
+[rosout][INFO] 2017-03-09 10:41:07,738: FS = 0.066
+[rosout][INFO] 2017-03-09 10:41:14,398: FS = 0.065
+[rosout][INFO] 2017-03-09 10:41:21,065: FS = 0.065
+[rosout][INFO] 2017-03-09 10:41:27,733: FS = 0.065
+[rosout][INFO] 2017-03-09 10:41:34,397: FS = 0.065
+[rosout][INFO] 2017-03-09 10:41:41,066: FS = 0.066
+[rosout][INFO] 2017-03-09 10:41:47,732: FS = 0.066
+[rosout][INFO] 2017-03-09 10:41:54,396: FS = 0.065
+[rosout][INFO] 2017-03-09 10:42:01,062: FS = 0.066
+[rosout][INFO] 2017-03-09 10:42:07,724: FS = 0.065
+[rosout][INFO] 2017-03-09 10:42:14,388: FS = 0.065
+[rosout][INFO] 2017-03-09 10:42:21,058: FS = 0.065
+[rosout][INFO] 2017-03-09 10:42:27,720: FS = 0.065
+[rosout][INFO] 2017-03-09 10:42:34,389: FS = 0.066
+[rosout][INFO] 2017-03-09 10:42:41,048: FS = 0.066
+[rosout][INFO] 2017-03-09 10:42:47,713: FS = 0.066
+[rosout][INFO] 2017-03-09 10:42:54,387: FS = 0.065
+[rosout][INFO] 2017-03-09 10:43:01,049: FS = 0.066
+[rosout][INFO] 2017-03-09 10:43:07,712: FS = 0.066
+[rosout][INFO] 2017-03-09 10:43:14,377: FS = 0.066
+[rosout][INFO] 2017-03-09 10:43:21,013: FS = 0.065
+[rosout][INFO] 2017-03-09 10:43:27,679: FS = 0.065
+[rosout][INFO] 2017-03-09 10:43:34,342: FS = 0.065
+[rosout][INFO] 2017-03-09 10:43:41,004: FS = 0.064
+[rosout][INFO] 2017-03-09 10:43:47,675: FS = 0.067
+[rosout][INFO] 2017-03-09 10:43:54,338: FS = 0.068
+[rosout][INFO] 2017-03-09 10:44:01,005: FS = 0.068
+[rosout][INFO] 2017-03-09 10:44:07,671: FS = 0.066
+[rospy.core][INFO] 2017-03-09 10:44:08,766: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 10:44:08,895: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 10:44:08,902: topic[/cone_finder/colorImage] removing connection to /image_view
+[rospy.internal][INFO] 2017-03-09 10:44:08,903: topic[/camera/depth/camera_info] removing connection to http://10.42.0.1:39866/
+[rospy.internal][WARNING] 2017-03-09 10:44:08,917: Unknown error initiating TCP/IP socket to 10.42.0.1:37904 (http://10.42.0.1:39866/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-03-09 10:44:08,919: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 820, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-03-09 10:44:08,919: topic[/camera/color/image_raw] removing connection to http://10.42.0.1:39866/
+[rospy.internal][INFO] 2017-03-09 10:44:08,921: topic[/camera/depth/image_raw] removing connection to http://10.42.0.1:39866/
+[rospy.internal][INFO] 2017-03-09 10:44:08,923: topic[/camera/color/camera_info] removing connection to http://10.42.0.1:39866/
+[rospy.impl.masterslave][INFO] 2017-03-09 10:44:08,924: signal-2
+[rospy.internal][ERROR] 2017-03-09 10:44:08,932: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 711, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][WARNING] 2017-03-09 10:44:08,939: Unknown error initiating TCP/IP socket to 10.42.0.1:37904 (http://10.42.0.1:39866/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2017-03-09 10:44:09,405: signal_shutdown [atexit]

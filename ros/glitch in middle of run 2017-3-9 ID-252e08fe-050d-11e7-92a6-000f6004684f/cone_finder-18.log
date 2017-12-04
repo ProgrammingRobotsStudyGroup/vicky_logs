@@ -1,0 +1,212 @@
+[rospy.client][INFO] 2017-03-09 13:12:52,313: init_node, name[/cone_finder], pid[2494]
+[xmlrpc][INFO] 2017-03-09 13:12:52,314: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 13:12:52,316: Started XML-RPC server [http://10.42.0.1:35849/]
+[rospy.init][INFO] 2017-03-09 13:12:52,316: ROS Slave URI: [http://10.42.0.1:35849/]
+[rospy.impl.masterslave][INFO] 2017-03-09 13:12:52,317: _ready: http://10.42.0.1:35849/
+[rospy.registration][INFO] 2017-03-09 13:12:52,321: Registering with master node http://10.42.0.1:11311
+[xmlrpc][INFO] 2017-03-09 13:12:52,321: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 13:12:52,322: Registering publisher topic [/cone_finder/depthCamInfo] type [sensor_msgs/CameraInfo] with master
+[rospy.registration][INFO] 2017-03-09 13:12:52,335: Registering publisher topic [/cone_finder/colorCamInfo] type [sensor_msgs/CameraInfo] with master
+[rospy.registration][INFO] 2017-03-09 13:12:52,351: Registering publisher topic [/cone_finder/depthImage] type [sensor_msgs/Image] with master
+[rospy.registration][INFO] 2017-03-09 13:12:52,360: Registering publisher topic [/cone_finder/locations] type [cone_finder/location_msgs] with master
+[rospy.registration][INFO] 2017-03-09 13:12:52,373: Registering publisher topic [/cone_finder/colorImage] type [sensor_msgs/Image] with master
+[rospy.init][INFO] 2017-03-09 13:12:52,418: registered with master
+[rospy.rosout][INFO] 2017-03-09 13:12:52,418: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 13:12:52,426: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 13:12:52,433: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2017-03-09 13:12:52,542: [RosColorDepth] Initialized.
+[rospy.internal][INFO] 2017-03-09 13:12:52,663: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:53,214: topic[/camera/color/image_raw] adding connection to [http://10.42.0.1:36282/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:53,281: topic[/camera/color/camera_info] adding connection to [http://10.42.0.1:36282/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:53,598: topic[/camera/depth/image_raw] adding connection to [http://10.42.0.1:36282/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:53,813: topic[/camera/depth/camera_info] adding connection to [http://10.42.0.1:36282/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:56,933: topic[/cone_finder/colorImage] adding connection to [/image_view], count 0
+[rosout][INFO] 2017-03-09 13:13:02,502: FS = 0.070
+[rosout][INFO] 2017-03-09 13:13:09,170: FS = 0.066
+[rosout][INFO] 2017-03-09 13:13:15,842: FS = 0.066
+[rosout][INFO] 2017-03-09 13:13:22,499: FS = 0.066
+[rosout][INFO] 2017-03-09 13:13:29,161: FS = 0.065
+[rosout][INFO] 2017-03-09 13:13:35,836: FS = 0.065
+[rosout][INFO] 2017-03-09 13:13:42,494: FS = 0.066
+[rosout][INFO] 2017-03-09 13:13:49,165: FS = 0.066
+[rosout][INFO] 2017-03-09 13:13:55,833: FS = 0.065
+[rosout][INFO] 2017-03-09 13:14:02,491: FS = 0.065
+[rosout][INFO] 2017-03-09 13:14:09,155: FS = 0.065
+[rosout][INFO] 2017-03-09 13:14:15,825: FS = 0.065
+[rosout][INFO] 2017-03-09 13:14:22,494: FS = 0.066
+[rosout][INFO] 2017-03-09 13:14:29,125: FS = 0.066
+[rosout][INFO] 2017-03-09 13:14:35,793: FS = 0.066
+[rosout][INFO] 2017-03-09 13:14:42,454: FS = 0.066
+[rosout][INFO] 2017-03-09 13:14:49,121: FS = 0.066
+[rosout][INFO] 2017-03-09 13:14:55,750: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:02,376: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:09,047: FS = 0.067
+[rosout][INFO] 2017-03-09 13:15:15,714: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:22,346: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:29,007: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:35,678: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:42,348: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:49,009: FS = 0.066
+[rosout][INFO] 2017-03-09 13:15:55,673: FS = 0.065
+[rosout][INFO] 2017-03-09 13:16:02,315: FS = 0.066
+[rosout][INFO] 2017-03-09 13:16:08,970: FS = 0.066
+[rosout][INFO] 2017-03-09 13:16:15,641: FS = 0.066
+[rosout][INFO] 2017-03-09 13:16:22,304: FS = 0.066
+[rosout][INFO] 2017-03-09 13:16:28,967: FS = 0.065
+[rosout][INFO] 2017-03-09 13:16:35,633: FS = 0.065
+[rosout][INFO] 2017-03-09 13:16:42,290: FS = 0.065
+[rosout][INFO] 2017-03-09 13:16:48,963: FS = 0.066
+[rosout][INFO] 2017-03-09 13:16:55,625: FS = 0.066
+[rosout][INFO] 2017-03-09 13:17:02,290: FS = 0.066
+[rosout][INFO] 2017-03-09 13:17:08,959: FS = 0.066
+[rosout][INFO] 2017-03-09 13:17:15,626: FS = 0.067
+[rosout][INFO] 2017-03-09 13:17:22,292: FS = 0.066
+[rosout][INFO] 2017-03-09 13:17:28,959: FS = 0.067
+[rosout][INFO] 2017-03-09 13:17:35,623: FS = 0.067
+[rosout][INFO] 2017-03-09 13:17:42,287: FS = 0.067
+[rosout][INFO] 2017-03-09 13:17:48,955: FS = 0.066
+[rosout][INFO] 2017-03-09 13:17:55,616: FS = 0.066
+[rosout][INFO] 2017-03-09 13:18:02,290: FS = 0.067
+[rosout][INFO] 2017-03-09 13:18:08,951: FS = 0.067
+[rosout][INFO] 2017-03-09 13:18:15,580: FS = 0.067
+[rosout][INFO] 2017-03-09 13:18:22,248: FS = 0.066
+[rosout][INFO] 2017-03-09 13:18:28,917: FS = 0.066
+[rosout][INFO] 2017-03-09 13:18:35,575: FS = 0.066
+[rosout][INFO] 2017-03-09 13:18:42,241: FS = 0.066
+[rosout][INFO] 2017-03-09 13:18:48,907: FS = 0.066
+[rosout][INFO] 2017-03-09 13:18:55,592: FS = 0.067
+[rosout][INFO] 2017-03-09 13:19:02,237: FS = 0.066
+[rosout][INFO] 2017-03-09 13:19:08,905: FS = 0.066
+[rosout][INFO] 2017-03-09 13:19:15,568: FS = 0.067
+[rosout][INFO] 2017-03-09 13:19:22,230: FS = 0.066
+[rosout][INFO] 2017-03-09 13:19:28,898: FS = 0.066
+[rosout][INFO] 2017-03-09 13:19:35,564: FS = 0.066
+[rosout][INFO] 2017-03-09 13:19:42,232: FS = 0.066
+[rosout][INFO] 2017-03-09 13:19:48,899: FS = 0.066
+[rosout][INFO] 2017-03-09 13:19:55,556: FS = 0.065
+[rosout][INFO] 2017-03-09 13:20:02,226: FS = 0.065
+[rosout][INFO] 2017-03-09 13:20:08,892: FS = 0.066
+[rosout][INFO] 2017-03-09 13:20:15,559: FS = 0.067
+[rosout][INFO] 2017-03-09 13:20:22,219: FS = 0.068
+[rosout][INFO] 2017-03-09 13:20:28,885: FS = 0.065
+[rosout][INFO] 2017-03-09 13:20:35,551: FS = 0.065
+[rosout][INFO] 2017-03-09 13:20:42,220: FS = 0.065
+[rosout][INFO] 2017-03-09 13:20:48,883: FS = 0.065
+[rosout][INFO] 2017-03-09 13:20:55,552: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:02,216: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:08,879: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:15,544: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:22,176: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:28,840: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:35,504: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:42,172: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:48,839: FS = 0.065
+[rosout][INFO] 2017-03-09 13:21:55,502: FS = 0.064
+[rosout][INFO] 2017-03-09 13:22:02,168: FS = 0.064
+[rosout][INFO] 2017-03-09 13:22:08,833: FS = 0.065
+[rosout][INFO] 2017-03-09 13:22:15,496: FS = 0.065
+[rosout][INFO] 2017-03-09 13:22:22,167: FS = 0.065
+[rosout][INFO] 2017-03-09 13:22:28,831: FS = 0.065
+[rosout][INFO] 2017-03-09 13:22:35,495: FS = 0.065
+[rosout][INFO] 2017-03-09 13:22:42,159: FS = 0.065
+[rosout][INFO] 2017-03-09 13:22:48,796: FS = 0.064
+[rosout][INFO] 2017-03-09 13:22:55,458: FS = 0.066
+[rosout][INFO] 2017-03-09 13:23:02,125: FS = 0.066
+[rosout][INFO] 2017-03-09 13:23:08,794: FS = 0.065
+[rosout][INFO] 2017-03-09 13:23:15,453: FS = 0.065
+[rosout][INFO] 2017-03-09 13:23:22,123: FS = 0.065
+[rosout][INFO] 2017-03-09 13:23:28,823: FS = 0.065
+[rosout][INFO] 2017-03-09 13:23:35,485: FS = 0.066
+[rosout][INFO] 2017-03-09 13:23:42,150: FS = 0.066
+[rosout][INFO] 2017-03-09 13:23:48,817: FS = 0.066
+[rosout][INFO] 2017-03-09 13:23:55,483: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:02,146: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:08,784: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:15,443: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:22,115: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:28,777: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:35,447: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:42,076: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:48,708: FS = 0.066
+[rosout][INFO] 2017-03-09 13:24:55,378: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:02,040: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:08,705: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:15,367: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:22,030: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:28,701: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:35,333: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:41,995: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:48,665: FS = 0.066
+[rosout][INFO] 2017-03-09 13:25:55,329: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:01,991: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:08,661: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:15,321: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:21,992: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:28,657: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:35,286: FS = 0.065
+[rosout][INFO] 2017-03-09 13:26:41,954: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:48,620: FS = 0.066
+[rosout][INFO] 2017-03-09 13:26:55,284: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:01,949: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:08,615: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:15,278: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:21,942: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:28,617: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:35,277: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:41,944: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:48,574: FS = 0.066
+[rosout][INFO] 2017-03-09 13:27:55,238: FS = 0.066
+[rosout][INFO] 2017-03-09 13:28:01,907: FS = 0.066
+[rosout][INFO] 2017-03-09 13:28:08,568: FS = 0.066
+[rosout][INFO] 2017-03-09 13:28:15,235: FS = 0.066
+[rosout][INFO] 2017-03-09 13:28:21,897: FS = 0.065
+[rosout][INFO] 2017-03-09 13:28:28,572: FS = 0.066
+[rosout][INFO] 2017-03-09 13:28:35,229: FS = 0.066
+[rosout][INFO] 2017-03-09 13:28:41,897: FS = 0.066
+[rosout][INFO] 2017-03-09 13:28:48,556: FS = 0.065
+[rosout][INFO] 2017-03-09 13:28:55,228: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:01,894: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:08,559: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:15,223: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:21,850: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:28,521: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:35,186: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:41,849: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:48,518: FS = 0.065
+[rosout][INFO] 2017-03-09 13:29:55,188: FS = 0.065
+[rosout][INFO] 2017-03-09 13:30:01,847: FS = 0.065
+[rosout][INFO] 2017-03-09 13:30:08,509: FS = 0.065
+[rosout][INFO] 2017-03-09 13:30:15,247: FS = 0.064
+[rosout][INFO] 2017-03-09 13:30:21,911: FS = 0.065
+[rosout][INFO] 2017-03-09 13:30:28,579: FS = 0.065
+[rosout][INFO] 2017-03-09 13:30:35,238: FS = 0.065
+[rosout][INFO] 2017-03-09 13:30:41,908: FS = 0.065
+[rosout][INFO] 2017-03-09 13:30:48,569: FS = 0.064
+[rosout][INFO] 2017-03-09 13:30:55,237: FS = 0.066
+[rosout][INFO] 2017-03-09 13:31:01,868: FS = 0.066
+[rosout][INFO] 2017-03-09 13:31:08,532: FS = 0.065
+[rosout][INFO] 2017-03-09 13:31:15,165: FS = 0.065
+[rosout][INFO] 2017-03-09 13:31:21,836: FS = 0.065
+[rosout][INFO] 2017-03-09 13:31:28,501: FS = 0.066
+[rosout][INFO] 2017-03-09 13:31:35,165: FS = 0.065
+[rosout][INFO] 2017-03-09 13:31:41,831: FS = 0.065
+[rosout][INFO] 2017-03-09 13:31:48,495: FS = 0.065
+[rospy.core][INFO] 2017-03-09 13:31:51,863: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 13:31:52,011: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 13:31:52,012: topic[/cone_finder/colorImage] removing connection to /image_view
+[rospy.internal][INFO] 2017-03-09 13:31:52,014: topic[/camera/depth/camera_info] removing connection to http://10.42.0.1:36282/
+[rospy.internal][INFO] 2017-03-09 13:31:52,015: topic[/camera/color/image_raw] removing connection to http://10.42.0.1:36282/
+[rospy.internal][INFO] 2017-03-09 13:31:52,015: topic[/camera/depth/image_raw] removing connection to http://10.42.0.1:36282/
+[rospy.internal][INFO] 2017-03-09 13:31:52,017: topic[/camera/color/camera_info] removing connection to http://10.42.0.1:36282/
+[rospy.impl.masterslave][INFO] 2017-03-09 13:31:52,017: signal-2
+[rospy.internal][WARNING] 2017-03-09 13:31:52,020: Unknown error initiating TCP/IP socket to 10.42.0.1:38916 (http://10.42.0.1:36282/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2017-03-09 13:31:52,027: Unknown error initiating TCP/IP socket to 10.42.0.1:38916 (http://10.42.0.1:36282/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2017-03-09 13:31:52,494: signal_shutdown [atexit]

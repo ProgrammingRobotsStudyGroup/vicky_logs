@@ -1,0 +1,4 @@
+[0m[ INFO] [1489084676.356809939]: Loading nodelet /camera/depth_metric_rect of type depth_image_proc/convert_metric to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1489084676.356991743]: /camera/image -> /camera/depth/image_rect[0m
+[0m[ INFO] [1489084676.357044016]: /camera/image_raw -> /camera/depth/image_rect_raw[0m
+[0m[ INFO] [1489085049.641505083]: Unloading nodelet /camera/depth_metric_rect from manager camera_nodelet_manager[0m

@@ -1,0 +1,221 @@
+[rospy.client][INFO] 2017-03-09 10:37:58,245: init_node, name[/state_follow_waypoint], pid[25450]
+[xmlrpc][INFO] 2017-03-09 10:37:58,246: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 10:37:58,248: Started XML-RPC server [http://10.42.0.1:35726/]
+[rospy.impl.masterslave][INFO] 2017-03-09 10:37:58,248: _ready: http://10.42.0.1:35726/
+[rospy.registration][INFO] 2017-03-09 10:37:58,251: Registering with master node http://10.42.0.1:11311
+[rospy.init][INFO] 2017-03-09 10:37:58,253: ROS Slave URI: [http://10.42.0.1:35726/]
+[rospy.init][INFO] 2017-03-09 10:37:58,254: registered with master
+[rospy.rosout][INFO] 2017-03-09 10:37:58,254: initializing /rosout core topic
+[xmlrpc][INFO] 2017-03-09 10:37:58,273: xml rpc node: starting XML-RPC server
+[rospy.rosout][INFO] 2017-03-09 10:37:58,281: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 10:37:58,299: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 10:37:58,564: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,711: topic[/mavros/local_position/pose] adding connection to [http://10.42.0.1:39087/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,719: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.42.0.1:39087/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,760: topic[/mavros/state] adding connection to [http://10.42.0.1:39087/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,778: topic[/mavros/battery] adding connection to [http://10.42.0.1:39087/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,897: topic[/mavros/mission/waypoints] adding connection to [http://10.42.0.1:39087/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,980: topic[/state_command] adding connection to [http://10.42.0.1:35726/], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:58,985: topic[/state_command] adding connection to [/state_follow_waypoint], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:59,073: topic[/exec_command] adding connection to [/exec], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:59,100: topic[/mavros/rc/override] adding connection to [/mavros], count 0
+[rospy.internal][INFO] 2017-03-09 10:37:59,147: topic[/state_command] adding connection to [http://10.42.0.1:37541/], count 1
+[rosout][INFO] 2017-03-09 10:39:04,442: /state_follow_waypoint parse_msg_to_state: Following_waypoint,RESET
+[rosout][INFO] 2017-03-09 10:39:04,444: /state_follow_waypoint cmd_callback: Following_waypoint,RESET
+[rosout][INFO] 2017-03-09 10:39:04,447: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:39:04,455: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 10:39:04,464: /state_follow_waypoint parse_msg_to_state: Following_waypoint,START
+[rosout][INFO] 2017-03-09 10:39:04,465: /state_follow_waypoint cmd_callback: Following_waypoint,START
+[rosout][INFO] 2017-03-09 10:39:04,466: state_start
+[rosout][INFO] 2017-03-09 10:39:04,468: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:39:04,477: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 10:39:04,483: /mavros/mission/set_current: 0
+[rosout][INFO] 2017-03-09 10:39:04,498: success: True
+[rosout][INFO] 2017-03-09 10:39:04,500: /mavros/set_mode: AUTO
+[rosout][INFO] 2017-03-09 10:39:04,511: /mavros/cmd/arming: True
+[rosout][INFO] 2017-03-09 10:39:04,554: success: True
+result: 0
+[rosout][INFO] 2017-03-09 10:39:04,558: Driving to waypoint. Status: 120
+[rosout][INFO] 2017-03-09 10:39:06,560: Driving to waypoint. Status: 119
+[rosout][INFO] 2017-03-09 10:39:08,560: Driving to waypoint. Status: 118
+[rosout][INFO] 2017-03-09 10:39:10,560: Driving to waypoint. Status: 117
+[rosout][INFO] 2017-03-09 10:39:12,560: Driving to waypoint. Status: 116
+[rosout][INFO] 2017-03-09 10:39:14,560: Driving to waypoint. Status: 115
+[rosout][INFO] 2017-03-09 10:39:16,560: Driving to waypoint. Status: 114
+[rosout][INFO] 2017-03-09 10:39:18,560: Driving to waypoint. Status: 113
+[rosout][INFO] 2017-03-09 10:39:20,560: Driving to waypoint. Status: 112
+[rosout][INFO] 2017-03-09 10:39:22,560: Driving to waypoint. Status: 111
+[rosout][INFO] 2017-03-09 10:39:24,561: Driving to waypoint. Status: 110
+[rosout][INFO] 2017-03-09 10:39:26,560: Driving to waypoint. Status: 109
+[rosout][INFO] 2017-03-09 10:39:28,560: Driving to waypoint. Status: 108
+[rosout][INFO] 2017-03-09 10:39:30,560: Driving to waypoint. Status: 107
+[rosout][INFO] 2017-03-09 10:39:32,560: Driving to waypoint. Status: 106
+[rosout][INFO] 2017-03-09 10:39:34,560: Driving to waypoint. Status: 105
+[rosout][INFO] 2017-03-09 10:39:36,560: Driving to waypoint. Status: 104
+[rosout][INFO] 2017-03-09 10:39:38,560: Driving to waypoint. Status: 103
+[rosout][INFO] 2017-03-09 10:39:40,560: Driving to waypoint. Status: 102
+[rosout][INFO] 2017-03-09 10:39:42,560: Driving to waypoint. Status: 101
+[rosout][INFO] 2017-03-09 10:39:44,560: Driving to waypoint. Status: 100
+[rosout][INFO] 2017-03-09 10:39:46,560: Driving to waypoint. Status: 99
+[rosout][INFO] 2017-03-09 10:39:48,559: Driving to waypoint. Status: 98
+[rosout][INFO] 2017-03-09 10:39:50,560: Driving to waypoint. Status: 97
+[rosout][INFO] 2017-03-09 10:39:52,560: Driving to waypoint. Status: 96
+[rosout][INFO] 2017-03-09 10:39:54,560: Driving to waypoint. Status: 95
+[rosout][INFO] 2017-03-09 10:39:56,560: Driving to waypoint. Status: 94
+[rosout][INFO] 2017-03-09 10:39:58,560: Driving to waypoint. Status: 93
+[rosout][INFO] 2017-03-09 10:40:00,560: Driving to waypoint. Status: 92
+[rosout][INFO] 2017-03-09 10:40:02,560: Driving to waypoint. Status: 91
+[rosout][INFO] 2017-03-09 10:40:04,560: Driving to waypoint. Status: 90
+[rosout][INFO] 2017-03-09 10:40:06,559: Driving to waypoint. Status: 89
+[rosout][INFO] 2017-03-09 10:40:08,560: Driving to waypoint. Status: 88
+[rosout][INFO] 2017-03-09 10:40:10,560: Driving to waypoint. Status: 87
+[rosout][INFO] 2017-03-09 10:40:12,559: Driving to waypoint. Status: 86
+[rosout][INFO] 2017-03-09 10:40:14,559: Driving to waypoint. Status: 85
+[rosout][INFO] 2017-03-09 10:40:16,559: Driving to waypoint. Status: 84
+[rosout][INFO] 2017-03-09 10:40:18,560: Driving to waypoint. Status: 83
+[rosout][INFO] 2017-03-09 10:40:20,560: Driving to waypoint. Status: 82
+[rosout][INFO] 2017-03-09 10:40:22,560: Driving to waypoint. Status: 81
+[rosout][INFO] 2017-03-09 10:40:24,559: Driving to waypoint. Status: 80
+[rosout][INFO] 2017-03-09 10:40:26,560: Driving to waypoint. Status: 79
+[rosout][INFO] 2017-03-09 10:40:28,559: Driving to waypoint. Status: 78
+[rosout][INFO] 2017-03-09 10:40:30,560: Driving to waypoint. Status: 77
+[rosout][INFO] 2017-03-09 10:40:32,560: Driving to waypoint. Status: 76
+[rosout][INFO] 2017-03-09 10:40:34,559: Driving to waypoint. Status: 75
+[rosout][INFO] 2017-03-09 10:40:36,560: Driving to waypoint. Status: 74
+[rosout][INFO] 2017-03-09 10:40:38,559: Driving to waypoint. Status: 73
+[rosout][INFO] 2017-03-09 10:40:40,559: Driving to waypoint. Status: 72
+[rosout][INFO] 2017-03-09 10:40:42,558: Driving to waypoint. Status: 71
+[rosout][INFO] 2017-03-09 10:40:44,559: Driving to waypoint. Status: 70
+[rosout][INFO] 2017-03-09 10:40:46,560: Driving to waypoint. Status: 69
+[rosout][INFO] 2017-03-09 10:40:48,560: Driving to waypoint. Status: 68
+[rosout][INFO] 2017-03-09 10:40:50,559: Driving to waypoint. Status: 67
+[rosout][INFO] 2017-03-09 10:40:52,560: Driving to waypoint. Status: 66
+[rosout][INFO] 2017-03-09 10:40:54,558: Driving to waypoint. Status: 65
+[rosout][INFO] 2017-03-09 10:40:56,560: Driving to waypoint. Status: 64
+[rosout][INFO] 2017-03-09 10:40:58,558: Driving to waypoint. Status: 63
+[rosout][INFO] 2017-03-09 10:41:00,559: Driving to waypoint. Status: 62
+[rosout][INFO] 2017-03-09 10:41:02,558: Driving to waypoint. Status: 61
+[rosout][INFO] 2017-03-09 10:41:04,560: Driving to waypoint. Status: 60
+[rosout][INFO] 2017-03-09 10:41:04,561: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:41:08,447: /state_follow_waypoint parse_msg_to_state: Following_waypoint,RESET
+[rosout][INFO] 2017-03-09 10:41:08,448: /state_follow_waypoint cmd_callback: Following_waypoint,RESET
+[rosout][INFO] 2017-03-09 10:41:08,449: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:41:08,463: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 10:41:08,472: Service arm call failed: service [/mavros/cmd/arming] responded with an error: . Attempted to set False
+[rosout][INFO] 2017-03-09 10:43:24,866: /state_follow_waypoint parse_msg_to_state: Following_waypoint,RESET
+[rosout][INFO] 2017-03-09 10:43:24,867: /state_follow_waypoint cmd_callback: Following_waypoint,RESET
+[rosout][INFO] 2017-03-09 10:43:24,869: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:43:24,879: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 10:43:24,881: /state_follow_waypoint parse_msg_to_state: Following_waypoint,START
+[rosout][INFO] 2017-03-09 10:43:24,882: /state_follow_waypoint cmd_callback: Following_waypoint,START
+[rosout][INFO] 2017-03-09 10:43:24,883: state_start
+[rosout][INFO] 2017-03-09 10:43:24,884: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:43:24,895: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 10:43:24,902: /mavros/mission/set_current: 0
+[rosout][INFO] 2017-03-09 10:43:24,929: success: True
+[rosout][INFO] 2017-03-09 10:43:24,931: /mavros/set_mode: AUTO
+[rosout][INFO] 2017-03-09 10:43:24,939: /mavros/cmd/arming: True
+[rosout][INFO] 2017-03-09 10:43:24,979: success: True
+result: 0
+[rosout][INFO] 2017-03-09 10:43:24,981: Driving to waypoint. Status: 120
+[rosout][INFO] 2017-03-09 10:43:26,983: Driving to waypoint. Status: 119
+[rosout][INFO] 2017-03-09 10:43:28,982: Driving to waypoint. Status: 118
+[rosout][INFO] 2017-03-09 10:43:30,981: Driving to waypoint. Status: 117
+[rosout][INFO] 2017-03-09 10:43:32,983: Driving to waypoint. Status: 116
+[rosout][INFO] 2017-03-09 10:43:34,983: Driving to waypoint. Status: 115
+[rosout][INFO] 2017-03-09 10:43:36,983: Driving to waypoint. Status: 114
+[rosout][INFO] 2017-03-09 10:43:38,984: Driving to waypoint. Status: 113
+[rosout][INFO] 2017-03-09 10:43:40,983: Driving to waypoint. Status: 112
+[rosout][INFO] 2017-03-09 10:43:42,983: Driving to waypoint. Status: 111
+[rosout][INFO] 2017-03-09 10:43:44,982: Driving to waypoint. Status: 110
+[rosout][INFO] 2017-03-09 10:43:46,981: Driving to waypoint. Status: 109
+[rosout][INFO] 2017-03-09 10:43:48,981: Driving to waypoint. Status: 108
+[rosout][INFO] 2017-03-09 10:43:50,982: Driving to waypoint. Status: 107
+[rosout][INFO] 2017-03-09 10:43:52,982: Driving to waypoint. Status: 106
+[rosout][INFO] 2017-03-09 10:43:54,983: Driving to waypoint. Status: 105
+[rosout][INFO] 2017-03-09 10:43:56,981: Driving to waypoint. Status: 104
+[rosout][INFO] 2017-03-09 10:43:58,982: Driving to waypoint. Status: 103
+[rosout][INFO] 2017-03-09 10:44:00,983: Driving to waypoint. Status: 102
+[rosout][INFO] 2017-03-09 10:44:02,982: Driving to waypoint. Status: 101
+[rosout][INFO] 2017-03-09 10:44:04,983: Driving to waypoint. Status: 100
+[rosout][INFO] 2017-03-09 10:44:06,983: Driving to waypoint. Status: 99
+[rospy.core][INFO] 2017-03-09 10:44:08,754: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 10:44:08,911: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 10:44:08,912: topic[/mavros/rc/override] removing connection to /mavros
+[rospy.internal][INFO] 2017-03-09 10:44:08,915: topic[/state_command] removing connection to /state_follow_waypoint
+[rospy.internal][ERROR] 2017-03-09 10:44:08,918: Unable to initiate TCP/IP socket to 10.42.0.1:44169 (http://10.42.0.1:35726/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-03-09 10:44:08,918: topic[/exec_command] removing connection to /exec
+[rospy.internal][INFO] 2017-03-09 10:44:08,921: topic[/mavros/mission/waypoints] removing connection to http://10.42.0.1:39087/
+[rospy.internal][WARNING] 2017-03-09 10:44:08,930: Unknown error initiating TCP/IP socket to 10.42.0.1:55015 (http://10.42.0.1:39087/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-03-09 10:44:08,937: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 820, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-03-09 10:44:08,940: topic[/mavros/state] removing connection to http://10.42.0.1:39087/
+[rospy.internal][WARNING] 2017-03-09 10:44:08,940: Unknown error initiating TCP/IP socket to 10.42.0.1:55015 (http://10.42.0.1:39087/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2017-03-09 10:44:08,945: Unknown error initiating TCP/IP socket to 10.42.0.1:55015 (http://10.42.0.1:39087/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2017-03-09 10:44:08,945: topic[/mavros/local_position/pose] removing connection to http://10.42.0.1:39087/
+[rospy.topics][ERROR] 2017-03-09 10:44:08,947: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 307, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 820, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-03-09 10:44:08,949: topic[/mavros/battery] removing connection to http://10.42.0.1:39087/
+[rospy.internal][WARNING] 2017-03-09 10:44:08,949: Unknown error initiating TCP/IP socket to 10.42.0.1:55015 (http://10.42.0.1:39087/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2017-03-09 10:44:08,950: topic[/state_command] removing connection to http://10.42.0.1:35726/
+[rospy.internal][INFO] 2017-03-09 10:44:08,951: topic[/state_command] removing connection to http://10.42.0.1:37541/
+[rospy.internal][INFO] 2017-03-09 10:44:08,952: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.42.0.1:39087/
+[rospy.internal][WARNING] 2017-03-09 10:44:08,954: Unknown error initiating TCP/IP socket to 10.42.0.1:55015 (http://10.42.0.1:39087/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2017-03-09 10:44:08,954: signal-2
+[rosout][INFO] 2017-03-09 10:44:08,982: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:44:08,990: Service set_mode call failed: service [/mavros/set_mode] returned no response. Mode HOLD could not be set. Check that GPS is enabled.
+[rospy.topics][WARNING] 2017-03-09 10:44:08,991: during shutdown, bad callback: <function cmd_callback at 0x7efd25b62500>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/robo_magellan/scripts/state_follow_waypoint.py", line 58, in cmd_callback
+    state_start()
+  File "/home/robot/catkin_ws/src/robo_magellan/scripts/state_follow_waypoint.py", line 154, in state_start
+    __UAV_State.set_mode(MAVMODE.HOLD.name)
+  File "/home/robot/catkin_ws/src/robo_magellan/scripts/uav_state.py", line 153, in set_mode
+    return is_mode_changed
+UnboundLocalError: local variable 'is_mode_changed' referenced before assignment
+
+[rospy.core][INFO] 2017-03-09 10:44:09,421: signal_shutdown [atexit]

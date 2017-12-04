@@ -1,0 +1,144 @@
+[rospy.client][INFO] 2017-03-09 13:41:51,021: init_node, name[/exec], pid[19779]
+[xmlrpc][INFO] 2017-03-09 13:41:51,023: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 13:41:51,024: Started XML-RPC server [http://10.42.0.1:39013/]
+[rospy.init][INFO] 2017-03-09 13:41:51,025: ROS Slave URI: [http://10.42.0.1:39013/]
+[rospy.impl.masterslave][INFO] 2017-03-09 13:41:51,026: _ready: http://10.42.0.1:39013/
+[rospy.registration][INFO] 2017-03-09 13:41:51,029: Registering with master node http://10.42.0.1:11311
+[rospy.registration][INFO] 2017-03-09 13:41:51,030: Registering publisher topic [/play] type [std_msgs/String] with master
+[xmlrpc][INFO] 2017-03-09 13:41:51,029: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-03-09 13:41:51,127: registered with master
+[rospy.rosout][INFO] 2017-03-09 13:41:51,127: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 13:41:51,142: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 13:41:51,153: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 13:41:51,320: topic[/play] adding connection to [/chatty], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,333: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,561: topic[/mavros/state] adding connection to [http://10.42.0.1:34107/], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,569: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.42.0.1:34107/], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,572: topic[/mavros/local_position/pose] adding connection to [http://10.42.0.1:34107/], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,577: topic[/mavros/battery] adding connection to [http://10.42.0.1:34107/], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,688: topic[/mavros/mission/waypoints] adding connection to [http://10.42.0.1:34107/], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,774: topic[/exec_command] adding connection to [http://10.42.0.1:39013/], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,777: topic[/exec_command] adding connection to [/exec], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,800: topic[/mavros/rc/override] adding connection to [/mavros], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,844: topic[/state_command] adding connection to [/state_follow_waypoint], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,848: topic[/exec_command] adding connection to [http://10.42.0.1:33842/], count 1
+[rospy.internal][INFO] 2017-03-09 13:43:02,536: topic[/exec_command] adding connection to [http://10.42.0.18:38663/], count 2
+[rosout][INFO] 2017-03-09 13:43:02,903: /exec parse_msg_from_state: x,START_EXEC,x
+[rosout][INFO] 2017-03-09 13:43:02,905: Entered state: Start
+[rosout][INFO] 2017-03-09 13:43:02,906: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 13:43:02,908: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 13:43:02,915: Entered state: Following_waypoint
+[rosout][INFO] 2017-03-09 13:43:02,916: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 13:43:02,938: In Following_waypoint state. Countdown: 130
+[rosout][INFO] 2017-03-09 13:43:04,926: In Following_waypoint state. Countdown: 129
+[rosout][INFO] 2017-03-09 13:43:06,927: In Following_waypoint state. Countdown: 128
+[rosout][INFO] 2017-03-09 13:43:08,929: In Following_waypoint state. Countdown: 127
+[rosout][INFO] 2017-03-09 13:43:10,926: In Following_waypoint state. Countdown: 126
+[rosout][INFO] 2017-03-09 13:43:12,926: In Following_waypoint state. Countdown: 125
+[rosout][INFO] 2017-03-09 13:43:14,926: In Following_waypoint state. Countdown: 124
+[rosout][INFO] 2017-03-09 13:43:16,926: In Following_waypoint state. Countdown: 123
+[rosout][INFO] 2017-03-09 13:43:18,926: In Following_waypoint state. Countdown: 122
+[rosout][INFO] 2017-03-09 13:43:20,926: In Following_waypoint state. Countdown: 121
+[rosout][INFO] 2017-03-09 13:43:22,927: In Following_waypoint state. Countdown: 120
+[rosout][INFO] 2017-03-09 13:43:24,926: In Following_waypoint state. Countdown: 119
+[rosout][INFO] 2017-03-09 13:43:26,926: In Following_waypoint state. Countdown: 118
+[rosout][INFO] 2017-03-09 13:43:28,926: In Following_waypoint state. Countdown: 117
+[rosout][INFO] 2017-03-09 13:43:30,926: In Following_waypoint state. Countdown: 116
+[rosout][INFO] 2017-03-09 13:43:32,927: In Following_waypoint state. Countdown: 115
+[rosout][INFO] 2017-03-09 13:43:34,927: In Following_waypoint state. Countdown: 114
+[rosout][INFO] 2017-03-09 13:43:36,927: In Following_waypoint state. Countdown: 113
+[rosout][INFO] 2017-03-09 13:43:38,927: In Following_waypoint state. Countdown: 112
+[rosout][INFO] 2017-03-09 13:43:40,926: In Following_waypoint state. Countdown: 111
+[rosout][INFO] 2017-03-09 13:43:42,926: In Following_waypoint state. Countdown: 110
+[rosout][INFO] 2017-03-09 13:43:44,927: In Following_waypoint state. Countdown: 109
+[rosout][INFO] 2017-03-09 13:43:46,926: In Following_waypoint state. Countdown: 108
+[rosout][INFO] 2017-03-09 13:43:48,927: In Following_waypoint state. Countdown: 107
+[rosout][INFO] 2017-03-09 13:43:50,926: In Following_waypoint state. Countdown: 106
+[rosout][INFO] 2017-03-09 13:43:52,927: In Following_waypoint state. Countdown: 105
+[rosout][INFO] 2017-03-09 13:43:54,926: In Following_waypoint state. Countdown: 104
+[rosout][INFO] 2017-03-09 13:43:56,927: In Following_waypoint state. Countdown: 103
+[rosout][INFO] 2017-03-09 13:43:58,926: In Following_waypoint state. Countdown: 102
+[rosout][INFO] 2017-03-09 13:44:00,926: In Following_waypoint state. Countdown: 101
+[rosout][INFO] 2017-03-09 13:44:02,926: In Following_waypoint state. Countdown: 100
+[rosout][INFO] 2017-03-09 13:44:04,927: In Following_waypoint state. Countdown: 99
+[rosout][INFO] 2017-03-09 13:44:06,926: In Following_waypoint state. Countdown: 98
+[rosout][INFO] 2017-03-09 13:44:08,926: In Following_waypoint state. Countdown: 97
+[rosout][INFO] 2017-03-09 13:44:10,927: In Following_waypoint state. Countdown: 96
+[rosout][INFO] 2017-03-09 13:44:12,926: In Following_waypoint state. Countdown: 95
+[rosout][INFO] 2017-03-09 13:44:14,928: In Following_waypoint state. Countdown: 94
+[rosout][INFO] 2017-03-09 13:44:16,925: In Following_waypoint state. Countdown: 93
+[rosout][INFO] 2017-03-09 13:44:18,926: In Following_waypoint state. Countdown: 92
+[rosout][INFO] 2017-03-09 13:44:20,926: In Following_waypoint state. Countdown: 91
+[rosout][INFO] 2017-03-09 13:44:22,927: In Following_waypoint state. Countdown: 90
+[rosout][INFO] 2017-03-09 13:44:24,927: In Following_waypoint state. Countdown: 89
+[rosout][INFO] 2017-03-09 13:44:26,926: In Following_waypoint state. Countdown: 88
+[rosout][INFO] 2017-03-09 13:44:28,927: In Following_waypoint state. Countdown: 87
+[rosout][INFO] 2017-03-09 13:44:30,928: In Following_waypoint state. Countdown: 86
+[rosout][INFO] 2017-03-09 13:44:32,927: In Following_waypoint state. Countdown: 85
+[rosout][INFO] 2017-03-09 13:44:34,926: In Following_waypoint state. Countdown: 84
+[rosout][INFO] 2017-03-09 13:44:36,926: In Following_waypoint state. Countdown: 83
+[rosout][INFO] 2017-03-09 13:44:38,927: In Following_waypoint state. Countdown: 82
+[rosout][INFO] 2017-03-09 13:44:40,927: In Following_waypoint state. Countdown: 81
+[rosout][INFO] 2017-03-09 13:44:42,925: In Following_waypoint state. Countdown: 80
+[rosout][INFO] 2017-03-09 13:44:44,926: In Following_waypoint state. Countdown: 79
+[rosout][INFO] 2017-03-09 13:44:46,926: In Following_waypoint state. Countdown: 78
+[rosout][INFO] 2017-03-09 13:44:48,926: In Following_waypoint state. Countdown: 77
+[rosout][INFO] 2017-03-09 13:44:50,927: In Following_waypoint state. Countdown: 76
+[rosout][INFO] 2017-03-09 13:44:52,927: In Following_waypoint state. Countdown: 75
+[rosout][INFO] 2017-03-09 13:44:54,926: In Following_waypoint state. Countdown: 74
+[rosout][INFO] 2017-03-09 13:44:56,928: In Following_waypoint state. Countdown: 73
+[rosout][INFO] 2017-03-09 13:44:58,926: In Following_waypoint state. Countdown: 72
+[rosout][INFO] 2017-03-09 13:45:00,927: In Following_waypoint state. Countdown: 71
+[rosout][INFO] 2017-03-09 13:45:02,926: In Following_waypoint state. Countdown: 70
+[rosout][INFO] 2017-03-09 13:45:03,058: /exec parse_msg_from_state: Following_waypoint,DONE,near_cone
+[rosout][INFO] 2017-03-09 13:45:04,926: In Following_waypoint state. Countdown: 69
+[rosout][INFO] 2017-03-09 13:45:06,927: Entered state: Failure
+[rosout][INFO] 2017-03-09 13:45:06,928: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 13:45:06,942: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 13:45:06,955: Service arm call failed: service [/mavros/cmd/arming] responded with an error: . Attempted to set False
+[rospy.internal][WARNING] 2017-03-09 13:45:06,979: Unknown error initiating TCP/IP socket to 10.42.0.18:33757 (http://10.42.0.18:38663/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2017-03-09 13:45:06,979: topic[/exec_command] removing connection to http://10.42.0.18:38663/
+[rospy.core][INFO] 2017-03-09 13:48:53,405: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 13:48:53,541: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 13:48:53,542: topic[/play] removing connection to /chatty
+[rospy.internal][INFO] 2017-03-09 13:48:53,543: topic[/mavros/rc/override] removing connection to /mavros
+[rospy.internal][INFO] 2017-03-09 13:48:53,544: topic[/state_command] removing connection to /state_follow_waypoint
+[rospy.internal][INFO] 2017-03-09 13:48:53,545: topic[/exec_command] removing connection to /exec
+[rospy.internal][INFO] 2017-03-09 13:48:53,546: topic[/mavros/mission/waypoints] removing connection to http://10.42.0.1:34107/
+[rospy.internal][WARNING] 2017-03-09 13:48:53,548: Unknown error initiating TCP/IP socket to 10.42.0.1:46005 (http://10.42.0.1:39013/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2017-03-09 13:48:53,548: topic[/exec_command] removing connection to http://10.42.0.1:39013/
+[rospy.internal][INFO] 2017-03-09 13:48:53,554: topic[/exec_command] removing connection to http://10.42.0.1:33842/
+[rospy.internal][INFO] 2017-03-09 13:48:53,555: topic[/mavros/state] removing connection to http://10.42.0.1:34107/
+[rospy.internal][ERROR] 2017-03-09 13:48:53,556: Unable to initiate TCP/IP socket to 10.42.0.1:38958 (http://10.42.0.1:33842/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-03-09 13:48:53,557: topic[/mavros/local_position/pose] removing connection to http://10.42.0.1:34107/
+[rospy.internal][INFO] 2017-03-09 13:48:53,560: topic[/mavros/battery] removing connection to http://10.42.0.1:34107/
+[rospy.internal][INFO] 2017-03-09 13:48:53,564: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.42.0.1:34107/
+[rospy.internal][WARNING] 2017-03-09 13:48:53,564: Unknown error initiating TCP/IP socket to 10.42.0.1:34113 (http://10.42.0.1:34107/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2017-03-09 13:48:53,565: signal-2
+[rospy.core][INFO] 2017-03-09 13:48:54,045: signal_shutdown [atexit]

@@ -1,0 +1,9 @@
+/home/robot/catkin_ws/src/robo_magellan/scripts/soundmapfiles.yaml
+[INFO] [1489085099.398752]: /chatty Play token: MANUAL
+[INFO] [1489085099.409521]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/manual.wav
+[INFO] [1489085099.609168]: /chatty Play token: DISARMED
+[INFO] [1489085099.610575]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[INFO] [1489085159.278521]: /chatty Play token: AUTO
+[INFO] [1489085159.279926]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/auto.wav
+[INFO] [1489085159.887417]: /chatty Play token: ARMED
+[INFO] [1489085159.889422]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/armed.wav

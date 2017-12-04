@@ -1,0 +1,29 @@
+/home/robot/catkin_ws/src/robo_magellan/scripts/soundmapfiles.yaml
+[INFO] [1489085158.036873]: /exec parse_msg_from_state: x,START_EXEC,x
+[INFO] [1489085158.038205]: Entered state: Start
+[INFO] [1489085158.039781]: /mavros/cmd/arming: False
+[INFO] [1489085158.041509]: /mavros/set_mode: HOLD
+[INFO] [1489085158.050838]: Entered state: Following_waypoint
+[INFO] [1489085158.052364]: /mavros/set_mode: HOLD
+[INFO] [1489085158.081504]: In Following_waypoint state. Countdown: 130
+[INFO] [1489085160.065751]: In Following_waypoint state. Countdown: 129
+[INFO] [1489085162.068051]: In Following_waypoint state. Countdown: 128
+[INFO] [1489085164.067451]: In Following_waypoint state. Countdown: 127
+[INFO] [1489085166.065367]: In Following_waypoint state. Countdown: 126
+[INFO] [1489085168.066833]: In Following_waypoint state. Countdown: 125
+[INFO] [1489085170.065175]: In Following_waypoint state. Countdown: 124
+[INFO] [1489085172.066302]: In Following_waypoint state. Countdown: 123
+[INFO] [1489085174.065831]: In Following_waypoint state. Countdown: 122
+[INFO] [1489085176.065132]: In Following_waypoint state. Countdown: 121
+[INFO] [1489085178.065124]: In Following_waypoint state. Countdown: 120
+[INFO] [1489085180.065121]: In Following_waypoint state. Countdown: 119
+[INFO] [1489085182.065108]: In Following_waypoint state. Countdown: 118
+[INFO] [1489085184.065733]: In Following_waypoint state. Countdown: 117
+[INFO] [1489085186.065346]: In Following_waypoint state. Countdown: 116
+[INFO] [1489085188.066734]: In Following_waypoint state. Countdown: 115
+[INFO] [1489085190.065155]: In Following_waypoint state. Countdown: 114
+[INFO] [1489085192.065180]: In Following_waypoint state. Countdown: 113
+[INFO] [1489085194.066695]: In Following_waypoint state. Countdown: 112
+[INFO] [1489085196.066091]: Entered state: Failure
+[INFO] [1489085196.066658]: /mavros/set_mode: HOLD
+[INFO] [1489085196.072923]: Service set_mode call failed: service [/mavros/set_mode] returned no response. Mode HOLD could not be set. Check that GPS is enabled.

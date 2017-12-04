@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2017-03-09 13:12:51,805: init_node, name[/touch_detector], pid[2561]
+[xmlrpc][INFO] 2017-03-09 13:12:51,807: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 13:12:51,808: Started XML-RPC server [http://10.42.0.1:42104/]
+[rospy.impl.masterslave][INFO] 2017-03-09 13:12:51,809: _ready: http://10.42.0.1:42104/
+[rospy.init][INFO] 2017-03-09 13:12:51,810: ROS Slave URI: [http://10.42.0.1:42104/]
+[xmlrpc][INFO] 2017-03-09 13:12:51,810: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 13:12:51,815: Registering with master node http://10.42.0.1:11311
+[rospy.init][INFO] 2017-03-09 13:12:51,910: registered with master
+[rospy.rosout][INFO] 2017-03-09 13:12:51,911: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 13:12:51,944: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 13:12:51,954: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 13:12:52,051: topic[/mavlink/from] adding connection to [http://10.42.0.1:33421/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:52,241: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:52,770: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.42.0.1:33421/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:52,771: topic[/mavros/local_position/pose] adding connection to [http://10.42.0.1:33421/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:52,778: topic[/mavros/state] adding connection to [http://10.42.0.1:33421/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:52,784: topic[/mavros/battery] adding connection to [http://10.42.0.1:33421/], count 0
+[rospy.core][INFO] 2017-03-09 13:31:51,854: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 13:31:51,974: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 13:31:51,976: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.42.0.1:33421/
+[rospy.internal][WARNING] 2017-03-09 13:31:51,981: Unknown error initiating TCP/IP socket to 10.42.0.1:33283 (http://10.42.0.1:33421/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2017-03-09 13:31:51,978: topic[/mavlink/from] removing connection to http://10.42.0.1:33421/
+[rospy.internal][INFO] 2017-03-09 13:31:51,984: topic[/mavros/local_position/pose] removing connection to http://10.42.0.1:33421/
+[rospy.internal][INFO] 2017-03-09 13:31:51,985: topic[/mavros/state] removing connection to http://10.42.0.1:33421/
+[rospy.internal][INFO] 2017-03-09 13:31:51,986: topic[/mavros/battery] removing connection to http://10.42.0.1:33421/
+[rospy.impl.masterslave][INFO] 2017-03-09 13:31:51,987: signal-2
+[rospy.core][INFO] 2017-03-09 13:31:52,507: signal_shutdown [atexit]

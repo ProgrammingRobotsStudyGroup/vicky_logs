@@ -1,0 +1,134 @@
+[rospy.client][INFO] 2017-03-09 10:24:54,956: init_node, name[/cone_finder], pid[2511]
+[xmlrpc][INFO] 2017-03-09 10:24:54,957: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 10:24:54,959: Started XML-RPC server [http://10.42.0.1:34332/]
+[rospy.init][INFO] 2017-03-09 10:24:54,959: ROS Slave URI: [http://10.42.0.1:34332/]
+[rospy.impl.masterslave][INFO] 2017-03-09 10:24:54,960: _ready: http://10.42.0.1:34332/
+[rospy.registration][INFO] 2017-03-09 10:24:54,963: Registering with master node http://10.42.0.1:11311
+[rospy.registration][INFO] 2017-03-09 10:24:54,963: Registering publisher topic [/cone_finder/depthCamInfo] type [sensor_msgs/CameraInfo] with master
+[xmlrpc][INFO] 2017-03-09 10:24:54,964: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 10:24:54,977: Registering publisher topic [/cone_finder/colorCamInfo] type [sensor_msgs/CameraInfo] with master
+[rospy.registration][INFO] 2017-03-09 10:24:54,993: Registering publisher topic [/cone_finder/depthImage] type [sensor_msgs/Image] with master
+[rospy.registration][INFO] 2017-03-09 10:24:55,005: Registering publisher topic [/cone_finder/locations] type [cone_finder/location_msgs] with master
+[rospy.registration][INFO] 2017-03-09 10:24:55,016: Registering publisher topic [/cone_finder/colorImage] type [sensor_msgs/Image] with master
+[rospy.init][INFO] 2017-03-09 10:24:55,060: registered with master
+[rospy.rosout][INFO] 2017-03-09 10:24:55,061: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 10:24:55,070: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 10:24:55,081: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 10:24:55,198: topic[/camera/color/camera_info] adding connection to [http://10.42.0.1:45399/], count 0
+[rospy.internal][INFO] 2017-03-09 10:24:55,264: topic[/camera/color/image_raw] adding connection to [http://10.42.0.1:45399/], count 0
+[rosout][INFO] 2017-03-09 10:24:55,275: [RosColorDepth] Initialized.
+[rospy.internal][INFO] 2017-03-09 10:24:55,334: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 10:24:55,597: topic[/camera/depth/image_raw] adding connection to [http://10.42.0.1:45399/], count 0
+[rospy.internal][INFO] 2017-03-09 10:24:55,663: topic[/camera/depth/camera_info] adding connection to [http://10.42.0.1:45399/], count 0
+[rospy.internal][INFO] 2017-03-09 10:24:58,785: topic[/cone_finder/colorImage] adding connection to [/image_view], count 0
+[rosout][INFO] 2017-03-09 10:25:04,420: FS = 0.071
+[rosout][INFO] 2017-03-09 10:25:11,087: FS = 0.066
+[rosout][INFO] 2017-03-09 10:25:17,715: FS = 0.066
+[rosout][INFO] 2017-03-09 10:25:24,350: FS = 0.065
+[rosout][INFO] 2017-03-09 10:25:31,013: FS = 0.065
+[rosout][INFO] 2017-03-09 10:25:37,684: FS = 0.066
+[rosout][INFO] 2017-03-09 10:25:44,313: FS = 0.065
+[rosout][INFO] 2017-03-09 10:25:50,975: FS = 0.065
+[rosout][INFO] 2017-03-09 10:25:57,616: FS = 0.066
+[rosout][INFO] 2017-03-09 10:26:04,278: FS = 0.065
+[rosout][INFO] 2017-03-09 10:26:10,943: FS = 0.066
+[rosout][INFO] 2017-03-09 10:26:17,609: FS = 0.066
+[rosout][INFO] 2017-03-09 10:26:24,277: FS = 0.065
+[rosout][INFO] 2017-03-09 10:26:30,911: FS = 0.067
+[rosout][INFO] 2017-03-09 10:26:37,542: FS = 0.067
+[rosout][INFO] 2017-03-09 10:26:44,174: FS = 0.067
+[rosout][INFO] 2017-03-09 10:26:50,808: FS = 0.066
+[rosout][INFO] 2017-03-09 10:26:57,468: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:04,136: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:10,800: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:17,463: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:24,097: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:30,759: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:37,427: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:44,094: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:50,758: FS = 0.066
+[rosout][INFO] 2017-03-09 10:27:57,423: FS = 0.066
+[rosout][INFO] 2017-03-09 10:28:04,093: FS = 0.066
+[rosout][INFO] 2017-03-09 10:28:10,754: FS = 0.067
+[rosout][INFO] 2017-03-09 10:28:17,422: FS = 0.066
+[rosout][INFO] 2017-03-09 10:28:24,086: FS = 0.069
+[rosout][INFO] 2017-03-09 10:28:30,750: FS = 0.066
+[rosout][INFO] 2017-03-09 10:28:37,413: FS = 0.066
+[rosout][INFO] 2017-03-09 10:28:44,078: FS = 0.065
+[rosout][INFO] 2017-03-09 10:28:50,742: FS = 0.065
+[rosout][INFO] 2017-03-09 10:28:57,411: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:04,040: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:10,711: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:17,376: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:24,037: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:30,705: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:37,372: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:44,037: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:50,703: FS = 0.065
+[rosout][INFO] 2017-03-09 10:29:57,364: FS = 0.065
+[rosout][INFO] 2017-03-09 10:30:04,030: FS = 0.066
+[rosout][INFO] 2017-03-09 10:30:10,692: FS = 0.065
+[rosout][INFO] 2017-03-09 10:30:17,360: FS = 0.065
+[rosout][INFO] 2017-03-09 10:30:24,029: FS = 0.066
+[rosout][INFO] 2017-03-09 10:30:30,695: FS = 0.065
+[rosout][INFO] 2017-03-09 10:30:37,364: FS = 0.067
+[rosout][INFO] 2017-03-09 10:30:44,030: FS = 0.067
+[rosout][INFO] 2017-03-09 10:30:50,693: FS = 0.068
+[rosout][INFO] 2017-03-09 10:30:57,357: FS = 0.065
+[rosout][INFO] 2017-03-09 10:31:04,022: FS = 0.066
+[rosout][INFO] 2017-03-09 10:31:10,686: FS = 0.065
+[rosout][INFO] 2017-03-09 10:31:17,355: FS = 0.066
+[rosout][INFO] 2017-03-09 10:31:24,058: FS = 0.066
+[rosout][INFO] 2017-03-09 10:31:30,718: FS = 0.066
+[rosout][INFO] 2017-03-09 10:31:37,380: FS = 0.066
+[rosout][INFO] 2017-03-09 10:31:44,042: FS = 0.066
+[rosout][INFO] 2017-03-09 10:31:50,711: FS = 0.065
+[rosout][INFO] 2017-03-09 10:31:57,446: FS = 0.066
+[rosout][INFO] 2017-03-09 10:32:04,113: FS = 0.066
+[rosout][INFO] 2017-03-09 10:32:10,776: FS = 0.066
+[rosout][INFO] 2017-03-09 10:32:17,441: FS = 0.065
+[rosout][INFO] 2017-03-09 10:32:24,176: FS = 0.066
+[rosout][INFO] 2017-03-09 10:32:30,806: FS = 0.066
+[rosout][INFO] 2017-03-09 10:32:37,465: FS = 0.065
+[rosout][INFO] 2017-03-09 10:32:44,110: FS = 0.066
+[rosout][INFO] 2017-03-09 10:32:50,835: FS = 0.066
+[rosout][INFO] 2017-03-09 10:32:57,498: FS = 0.066
+[rosout][INFO] 2017-03-09 10:33:04,098: FS = 0.065
+[rosout][INFO] 2017-03-09 10:33:10,764: FS = 0.065
+[rosout][INFO] 2017-03-09 10:33:17,432: FS = 0.066
+[rosout][INFO] 2017-03-09 10:33:24,062: FS = 0.066
+[rosout][INFO] 2017-03-09 10:33:30,730: FS = 0.065
+[rosout][INFO] 2017-03-09 10:33:37,427: FS = 0.066
+[rosout][INFO] 2017-03-09 10:33:44,095: FS = 0.066
+[rosout][INFO] 2017-03-09 10:33:50,758: FS = 0.066
+[rosout][INFO] 2017-03-09 10:33:57,423: FS = 0.067
+[rosout][INFO] 2017-03-09 10:34:04,090: FS = 0.065
+[rosout][INFO] 2017-03-09 10:34:10,755: FS = 0.068
+[rosout][INFO] 2017-03-09 10:34:17,427: FS = 0.067
+[rosout][INFO] 2017-03-09 10:34:24,086: FS = 0.068
+[rosout][INFO] 2017-03-09 10:34:30,754: FS = 0.066
+[rosout][INFO] 2017-03-09 10:34:37,418: FS = 0.066
+[rosout][INFO] 2017-03-09 10:34:44,086: FS = 0.066
+[rosout][INFO] 2017-03-09 10:34:50,709: FS = 0.066
+[rosout][INFO] 2017-03-09 10:34:57,380: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:04,042: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:10,714: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:17,373: FS = 0.067
+[rosout][INFO] 2017-03-09 10:35:24,039: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:30,706: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:37,373: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:44,035: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:50,700: FS = 0.066
+[rosout][INFO] 2017-03-09 10:35:57,332: FS = 0.066
+[rosout][INFO] 2017-03-09 10:36:03,997: FS = 0.066
+[rosout][INFO] 2017-03-09 10:36:10,666: FS = 0.066
+[rosout][INFO] 2017-03-09 10:36:17,333: FS = 0.066
+[rospy.core][INFO] 2017-03-09 10:36:18,501: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 10:36:18,647: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 10:36:18,662: topic[/cone_finder/colorImage] removing connection to /image_view
+[rospy.internal][INFO] 2017-03-09 10:36:18,665: topic[/camera/depth/camera_info] removing connection to http://10.42.0.1:45399/
+[rospy.internal][INFO] 2017-03-09 10:36:18,667: topic[/camera/color/image_raw] removing connection to http://10.42.0.1:45399/
+[rospy.internal][INFO] 2017-03-09 10:36:18,671: topic[/camera/depth/image_raw] removing connection to http://10.42.0.1:45399/
+[rospy.internal][INFO] 2017-03-09 10:36:18,683: topic[/camera/color/camera_info] removing connection to http://10.42.0.1:45399/
+[rospy.impl.masterslave][INFO] 2017-03-09 10:36:18,683: signal-2
+[rospy.core][INFO] 2017-03-09 10:36:19,153: signal_shutdown [atexit]

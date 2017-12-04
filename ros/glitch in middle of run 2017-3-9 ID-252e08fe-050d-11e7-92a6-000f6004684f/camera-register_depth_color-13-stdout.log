@@ -1,0 +1,6 @@
+[0m[ INFO] [1489093970.136352351]: Loading nodelet /camera/register_depth_color of type depth_image_proc/register to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1489093970.136518244]: /camera/depth/camera_info -> /camera/depth/camera_info[0m
+[0m[ INFO] [1489093970.136567892]: /camera/depth/image_rect -> /camera/depth/image_rect_raw[0m
+[0m[ INFO] [1489093970.136609840]: /camera/depth_registered/image_rect -> /camera/depth_registered/sw_registered/image_rect_raw[0m
+[0m[ INFO] [1489093970.136648813]: /camera/rgb/camera_info -> /camera/color/camera_info[0m
+[0m[ INFO] [1489095112.372852540]: Unloading nodelet /camera/register_depth_color from manager camera_nodelet_manager[0m

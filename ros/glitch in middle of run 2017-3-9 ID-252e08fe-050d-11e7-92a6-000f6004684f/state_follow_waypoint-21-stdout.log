@@ -1,0 +1,84 @@
+[INFO] [1489094369.711916]: /state_follow_waypoint parse_msg_to_state: Following_waypoint,RESET
+[INFO] [1489094369.713523]: /state_follow_waypoint cmd_callback: Following_waypoint,RESET
+[INFO] [1489094369.715761]: /mavros/set_mode: HOLD
+[INFO] [1489094369.724117]: /mavros/cmd/arming: False
+[INFO] [1489094369.725633]: /state_follow_waypoint parse_msg_to_state: Following_waypoint,START
+[INFO] [1489094369.726818]: /state_follow_waypoint cmd_callback: Following_waypoint,START
+[INFO] [1489094369.728359]: state_start
+[INFO] [1489094369.729951]: /mavros/set_mode: HOLD
+[INFO] [1489094369.737673]: /mavros/cmd/arming: False
+HERE 1
+[INFO] [1489094369.743719]: /mavros/mission/set_current: 0
+[INFO] [1489094369.775505]: success: True
+HERE 2
+[INFO] [1489094369.776861]: /mavros/set_mode: AUTO
+[INFO] [1489094369.788661]: /mavros/cmd/arming: True
+[INFO] [1489094369.826904]: success: True
+result: 0
+[INFO] [1489094369.828574]: Driving to waypoint. Status: 120
+[INFO] [1489094371.829423]: Driving to waypoint. Status: 119
+[INFO] [1489094373.830015]: Driving to waypoint. Status: 118
+[INFO] [1489094375.830678]: Driving to waypoint. Status: 117
+[INFO] [1489094377.829768]: Driving to waypoint. Status: 116
+[INFO] [1489094379.830560]: Driving to waypoint. Status: 115
+[INFO] [1489094381.830715]: Driving to waypoint. Status: 114
+[INFO] [1489094383.831009]: Driving to waypoint. Status: 113
+[INFO] [1489094385.829517]: Driving to waypoint. Status: 112
+[INFO] [1489094387.831126]: Driving to waypoint. Status: 111
+[INFO] [1489094389.830714]: Driving to waypoint. Status: 110
+[INFO] [1489094391.830895]: Driving to waypoint. Status: 109
+[INFO] [1489094393.830866]: Driving to waypoint. Status: 108
+[INFO] [1489094395.830844]: Driving to waypoint. Status: 107
+[INFO] [1489094397.830722]: Driving to waypoint. Status: 106
+[INFO] [1489094399.829420]: Driving to waypoint. Status: 105
+[INFO] [1489094401.830696]: Driving to waypoint. Status: 104
+[INFO] [1489094403.829075]: Driving to waypoint. Status: 103
+[INFO] [1489094405.830896]: Driving to waypoint. Status: 102
+[INFO] [1489094407.829356]: Driving to waypoint. Status: 101
+[INFO] [1489094409.829510]: Driving to waypoint. Status: 100
+[INFO] [1489094411.829465]: Driving to waypoint. Status: 99
+[INFO] [1489094413.829750]: Driving to waypoint. Status: 98
+[INFO] [1489094415.829670]: Driving to waypoint. Status: 97
+[INFO] [1489094417.830751]: Driving to waypoint. Status: 96
+[INFO] [1489094419.830874]: Driving to waypoint. Status: 95
+[INFO] [1489094421.830727]: Driving to waypoint. Status: 94
+[INFO] [1489094423.830705]: Driving to waypoint. Status: 93
+[INFO] [1489094425.829649]: Driving to waypoint. Status: 92
+[INFO] [1489094427.830879]: Driving to waypoint. Status: 91
+[INFO] [1489094429.830987]: Driving to waypoint. Status: 90
+[INFO] [1489094431.829505]: Driving to waypoint. Status: 89
+[INFO] [1489094433.831222]: Driving to waypoint. Status: 88
+[INFO] [1489094435.830785]: Driving to waypoint. Status: 87
+[INFO] [1489094437.831252]: Driving to waypoint. Status: 86
+[INFO] [1489094439.829593]: Driving to waypoint. Status: 85
+[INFO] [1489094441.831093]: Driving to waypoint. Status: 84
+[INFO] [1489094443.830964]: Driving to waypoint. Status: 83
+[INFO] [1489094445.830854]: Driving to waypoint. Status: 82
+[INFO] [1489094447.829798]: Driving to waypoint. Status: 81
+[INFO] [1489094449.828800]: Driving to waypoint. Status: 80
+[INFO] [1489094451.829484]: Driving to waypoint. Status: 79
+[INFO] [1489094453.829542]: Driving to waypoint. Status: 78
+[INFO] [1489094455.830117]: Driving to waypoint. Status: 77
+[INFO] [1489094457.830868]: Driving to waypoint. Status: 76
+[INFO] [1489094459.830549]: Driving to waypoint. Status: 75
+[INFO] [1489094461.830787]: Driving to waypoint. Status: 74
+[INFO] [1489094463.830238]: Driving to waypoint. Status: 73
+[INFO] [1489094465.830359]: Driving to waypoint. Status: 72
+[INFO] [1489094467.829662]: Driving to waypoint. Status: 71
+[INFO] [1489094469.829710]: Driving to waypoint. Status: 70
+[INFO] [1489094471.830634]: Driving to waypoint. Status: 69
+[INFO] [1489094473.830504]: Driving to waypoint. Status: 68
+[INFO] [1489094475.831379]: Driving to waypoint. Status: 67
+[INFO] [1489094477.830864]: Driving to waypoint. Status: 66
+[INFO] [1489094479.830753]: Driving to waypoint. Status: 65
+[INFO] [1489094481.829111]: Driving to waypoint. Status: 64
+[INFO] [1489094483.830875]: Driving to waypoint. Status: 63
+[INFO] [1489094485.830604]: Driving to waypoint. Status: 62
+[INFO] [1489094487.829708]: Driving to waypoint. Status: 61
+[INFO] [1489094489.830805]: Driving to waypoint. Status: 60
+[INFO] [1489094489.832320]: /mavros/set_mode: HOLD
+[INFO] [1489094493.715162]: /state_follow_waypoint parse_msg_to_state: Following_waypoint,RESET
+[INFO] [1489094493.716028]: /state_follow_waypoint cmd_callback: Following_waypoint,RESET
+[INFO] [1489094493.716943]: /mavros/set_mode: HOLD
+[INFO] [1489094493.725716]: /mavros/cmd/arming: False
+[INFO] [1489094493.738279]: Service arm call failed: service [/mavros/cmd/arming] responded with an error: . Attempted to set False

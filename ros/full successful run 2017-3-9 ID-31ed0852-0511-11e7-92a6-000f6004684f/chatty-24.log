@@ -1,0 +1,45 @@
+[rospy.client][INFO] 2017-03-09 13:41:50,975: init_node, name[/chatty], pid[19835]
+[xmlrpc][INFO] 2017-03-09 13:41:50,977: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-03-09 13:41:50,979: ROS Slave URI: [http://10.42.0.1:34436/]
+[xmlrpc][INFO] 2017-03-09 13:41:50,979: Started XML-RPC server [http://10.42.0.1:34436/]
+[rospy.impl.masterslave][INFO] 2017-03-09 13:41:50,979: _ready: http://10.42.0.1:34436/
+[xmlrpc][INFO] 2017-03-09 13:41:50,980: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 13:41:50,982: Registering with master node http://10.42.0.1:11311
+[rospy.init][INFO] 2017-03-09 13:41:51,079: registered with master
+[rospy.rosout][INFO] 2017-03-09 13:41:51,080: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 13:41:51,100: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 13:41:51,115: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 13:41:51,231: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,311: topic[/play] adding connection to [http://10.42.0.1:39013/], count 0
+[rospy.internal][INFO] 2017-03-09 13:41:51,741: topic[/play] adding connection to [http://10.42.0.1:41065/], count 1
+[rospy.internal][INFO] 2017-03-09 13:41:51,757: topic[/playfile] adding connection to [http://10.42.0.1:41065/], count 0
+[rosout][INFO] 2017-03-09 13:41:51,860: /chatty Play token: MANUAL
+[rosout][INFO] 2017-03-09 13:41:51,861: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/manual.wav
+[rosout][INFO] 2017-03-09 13:41:52,221: /chatty Play token: DISARMED
+[rosout][INFO] 2017-03-09 13:41:52,224: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[rosout][INFO] 2017-03-09 13:43:03,685: /chatty Play token: AUTO
+[rosout][INFO] 2017-03-09 13:43:03,686: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/auto.wav
+[rosout][INFO] 2017-03-09 13:43:06,112: /chatty Play token: ARMED
+[rosout][INFO] 2017-03-09 13:43:06,116: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/armed.wav
+[rosout][INFO] 2017-03-09 13:43:33,686: /chatty Play token: RTL
+[rosout][INFO] 2017-03-09 13:43:33,688: No enum named: RTL
+[rosout][INFO] 2017-03-09 13:43:39,684: /chatty Play token: HOLD
+[rosout][INFO] 2017-03-09 13:43:39,685: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[rosout][INFO] 2017-03-09 13:45:07,684: /chatty Play token: DISARMED
+[rosout][INFO] 2017-03-09 13:45:07,686: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[rospy.core][INFO] 2017-03-09 13:48:53,382: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 13:48:53,415: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 13:48:53,416: topic[/play] removing connection to http://10.42.0.1:39013/
+[rospy.internal][INFO] 2017-03-09 13:48:53,417: topic[/play] removing connection to http://10.42.0.1:41065/
+[rospy.internal][ERROR] 2017-03-09 13:48:53,420: Unable to initiate TCP/IP socket to 10.42.0.1:40234 (http://10.42.0.1:41065/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-03-09 13:48:53,419: topic[/playfile] removing connection to http://10.42.0.1:41065/
+[rospy.impl.masterslave][INFO] 2017-03-09 13:48:53,421: signal-2
+[rospy.core][INFO] 2017-03-09 13:48:54,042: signal_shutdown [atexit]

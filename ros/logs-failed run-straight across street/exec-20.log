@@ -1,0 +1,112 @@
+[rospy.client][INFO] 2017-03-09 10:44:58,313: init_node, name[/exec], pid[6631]
+[xmlrpc][INFO] 2017-03-09 10:44:58,314: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-03-09 10:44:58,316: ROS Slave URI: [http://10.42.0.1:33600/]
+[xmlrpc][INFO] 2017-03-09 10:44:58,317: Started XML-RPC server [http://10.42.0.1:33600/]
+[rospy.impl.masterslave][INFO] 2017-03-09 10:44:58,317: _ready: http://10.42.0.1:33600/
+[xmlrpc][INFO] 2017-03-09 10:44:58,318: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 10:44:58,320: Registering with master node http://10.42.0.1:11311
+[rospy.registration][INFO] 2017-03-09 10:44:58,320: Registering publisher topic [/play] type [std_msgs/String] with master
+[rospy.init][INFO] 2017-03-09 10:44:58,417: registered with master
+[rospy.rosout][INFO] 2017-03-09 10:44:58,418: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 10:44:58,436: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 10:44:58,448: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 10:44:58,726: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,008: topic[/play] adding connection to [/chatty], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,155: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,165: topic[/mavros/state] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,168: topic[/mavros/local_position/pose] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,174: topic[/mavros/battery] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,288: topic[/mavros/mission/waypoints] adding connection to [http://10.42.0.1:41083/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,324: topic[/exec_command] adding connection to [http://10.42.0.1:42329/], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,327: topic[/exec_command] adding connection to [http://10.42.0.1:33600/], count 1
+[rospy.internal][INFO] 2017-03-09 10:44:59,334: topic[/exec_command] adding connection to [/exec], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,374: topic[/state_command] adding connection to [/state_follow_waypoint], count 0
+[rospy.internal][INFO] 2017-03-09 10:44:59,495: topic[/mavros/rc/override] adding connection to [/mavros], count 0
+[rospy.internal][INFO] 2017-03-09 10:45:58,005: topic[/exec_command] adding connection to [http://10.42.0.18:34884/], count 2
+[rosout][INFO] 2017-03-09 10:45:58,036: /exec parse_msg_from_state: x,START_EXEC,x
+[rosout][INFO] 2017-03-09 10:45:58,037: Entered state: Start
+[rosout][INFO] 2017-03-09 10:45:58,039: /mavros/cmd/arming: False
+[rosout][INFO] 2017-03-09 10:45:58,040: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:45:58,050: Entered state: Following_waypoint
+[rosout][INFO] 2017-03-09 10:45:58,052: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:45:58,081: In Following_waypoint state. Countdown: 130
+[rosout][INFO] 2017-03-09 10:46:00,065: In Following_waypoint state. Countdown: 129
+[rosout][INFO] 2017-03-09 10:46:02,067: In Following_waypoint state. Countdown: 128
+[rosout][INFO] 2017-03-09 10:46:04,067: In Following_waypoint state. Countdown: 127
+[rosout][INFO] 2017-03-09 10:46:06,065: In Following_waypoint state. Countdown: 126
+[rosout][INFO] 2017-03-09 10:46:08,066: In Following_waypoint state. Countdown: 125
+[rosout][INFO] 2017-03-09 10:46:10,064: In Following_waypoint state. Countdown: 124
+[rosout][INFO] 2017-03-09 10:46:12,065: In Following_waypoint state. Countdown: 123
+[rosout][INFO] 2017-03-09 10:46:14,065: In Following_waypoint state. Countdown: 122
+[rosout][INFO] 2017-03-09 10:46:16,064: In Following_waypoint state. Countdown: 121
+[rosout][INFO] 2017-03-09 10:46:18,064: In Following_waypoint state. Countdown: 120
+[rosout][INFO] 2017-03-09 10:46:20,064: In Following_waypoint state. Countdown: 119
+[rosout][INFO] 2017-03-09 10:46:22,064: In Following_waypoint state. Countdown: 118
+[rosout][INFO] 2017-03-09 10:46:24,065: In Following_waypoint state. Countdown: 117
+[rosout][INFO] 2017-03-09 10:46:26,065: In Following_waypoint state. Countdown: 116
+[rosout][INFO] 2017-03-09 10:46:28,066: In Following_waypoint state. Countdown: 115
+[rosout][INFO] 2017-03-09 10:46:30,064: In Following_waypoint state. Countdown: 114
+[rosout][INFO] 2017-03-09 10:46:32,064: In Following_waypoint state. Countdown: 113
+[rosout][INFO] 2017-03-09 10:46:34,066: In Following_waypoint state. Countdown: 112
+[rospy.core][INFO] 2017-03-09 10:46:35,791: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2017-03-09 10:46:35,954: Unable to initiate TCP/IP socket to 10.42.0.1:38745 (http://10.42.0.1:42329/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-03-09 10:46:35,979: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 10:46:35,980: topic[/play] removing connection to /chatty
+[rospy.internal][INFO] 2017-03-09 10:46:35,980: topic[/mavros/rc/override] removing connection to /mavros
+[rospy.internal][INFO] 2017-03-09 10:46:35,981: topic[/state_command] removing connection to /state_follow_waypoint
+[rospy.internal][INFO] 2017-03-09 10:46:35,983: topic[/exec_command] removing connection to /exec
+[rospy.internal][ERROR] 2017-03-09 10:46:35,984: Unable to initiate TCP/IP socket to 10.42.0.1:36246 (http://10.42.0.1:33600/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-03-09 10:46:35,985: topic[/mavros/mission/waypoints] removing connection to http://10.42.0.1:41083/
+[rospy.internal][INFO] 2017-03-09 10:46:35,986: topic[/exec_command] removing connection to http://10.42.0.1:42329/
+[rospy.internal][INFO] 2017-03-09 10:46:35,986: topic[/exec_command] removing connection to http://10.42.0.1:33600/
+[rospy.internal][INFO] 2017-03-09 10:46:35,987: topic[/exec_command] removing connection to http://10.42.0.18:34884/
+[rospy.internal][WARNING] 2017-03-09 10:46:35,990: Unknown error initiating TCP/IP socket to 10.42.0.1:60986 (http://10.42.0.1:41083/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2017-03-09 10:46:35,989: topic[/mavros/state] removing connection to http://10.42.0.1:41083/
+[rospy.internal][INFO] 2017-03-09 10:46:35,991: topic[/mavros/local_position/pose] removing connection to http://10.42.0.1:41083/
+[rospy.internal][INFO] 2017-03-09 10:46:35,992: topic[/mavros/battery] removing connection to http://10.42.0.1:41083/
+[rospy.internal][INFO] 2017-03-09 10:46:35,994: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.42.0.1:41083/
+[rospy.impl.masterslave][INFO] 2017-03-09 10:46:35,994: signal-2
+[rospy.internal][WARNING] 2017-03-09 10:46:35,996: Unknown error initiating TCP/IP socket to 10.42.0.1:60986 (http://10.42.0.1:41083/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rosout][WARNING] 2017-03-09 10:46:36,065: Unknown transition: x
+[rosout][INFO] 2017-03-09 10:46:36,065: Entered state: Failure
+[rosout][INFO] 2017-03-09 10:46:36,066: /mavros/set_mode: HOLD
+[rosout][INFO] 2017-03-09 10:46:36,072: Service set_mode call failed: service [/mavros/set_mode] returned no response. Mode HOLD could not be set. Check that GPS is enabled.
+[rospy.topics][WARNING] 2017-03-09 10:46:36,080: during shutdown, bad callback: <function __state_resp_cb at 0x7fd4c0305410>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 720, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/robo_magellan/scripts/exec.py", line 322, in __state_resp_cb
+    machine.run("RUN")
+  File "/home/robot/catkin_ws/src/robo_magellan/scripts/statemachine.py", line 50, in run
+    (newState, cargo) = handler(cargo)
+  File "/home/robot/catkin_ws/src/robo_magellan/scripts/exec.py", line 301, in failure_transitions
+    __UAV_State.set_mode(MAVMODE.HOLD.name)
+  File "/home/robot/catkin_ws/src/robo_magellan/scripts/uav_state.py", line 153, in set_mode
+    return is_mode_changed
+UnboundLocalError: local variable 'is_mode_changed' referenced before assignment
+
+[rospy.core][INFO] 2017-03-09 10:46:36,462: signal_shutdown [atexit]

@@ -1,0 +1,54 @@
+[rospy.client][INFO] 2017-03-09 13:12:52,081: init_node, name[/chatty], pid[2566]
+[xmlrpc][INFO] 2017-03-09 13:12:52,082: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-03-09 13:12:52,083: Started XML-RPC server [http://10.42.0.1:37460/]
+[rospy.impl.masterslave][INFO] 2017-03-09 13:12:52,090: _ready: http://10.42.0.1:37460/
+[rospy.init][INFO] 2017-03-09 13:12:52,084: ROS Slave URI: [http://10.42.0.1:37460/]
+[xmlrpc][INFO] 2017-03-09 13:12:52,099: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-03-09 13:12:52,101: Registering with master node http://10.42.0.1:11311
+[rospy.init][INFO] 2017-03-09 13:12:52,199: registered with master
+[rospy.rosout][INFO] 2017-03-09 13:12:52,199: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-03-09 13:12:52,210: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-03-09 13:12:52,216: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-03-09 13:12:52,399: topic[/play] adding connection to [http://10.42.0.1:33773/], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:52,454: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-03-09 13:12:52,815: topic[/play] adding connection to [http://10.42.0.1:43304/], count 1
+[rospy.internal][INFO] 2017-03-09 13:12:52,823: topic[/playfile] adding connection to [http://10.42.0.1:43304/], count 0
+[rosout][INFO] 2017-03-09 13:12:52,872: /chatty Play token: MANUAL
+[rosout][INFO] 2017-03-09 13:12:52,873: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/manual.wav
+[rosout][INFO] 2017-03-09 13:12:53,028: /chatty Play token: DISARMED
+[rosout][INFO] 2017-03-09 13:12:53,030: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[rosout][INFO] 2017-03-09 13:19:30,728: /chatty Play token: HOLD
+[rosout][INFO] 2017-03-09 13:19:30,730: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[rosout][INFO] 2017-03-09 13:19:32,729: /chatty Play token: AUTO
+[rosout][INFO] 2017-03-09 13:19:32,730: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/auto.wav
+[rosout][INFO] 2017-03-09 13:19:37,983: /chatty Play token: ARMED
+[rosout][INFO] 2017-03-09 13:19:37,984: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/armed.wav
+[rosout][INFO] 2017-03-09 13:21:30,729: /chatty Play token: HOLD
+[rosout][INFO] 2017-03-09 13:21:30,730: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[rosout][INFO] 2017-03-09 13:21:36,728: /chatty Play token: DISARMED
+[rosout][INFO] 2017-03-09 13:21:36,730: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[rospy.core][INFO] 2017-03-09 13:31:51,836: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-03-09 13:31:51,902: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-03-09 13:31:51,903: topic[/play] removing connection to http://10.42.0.1:33773/
+[rospy.internal][INFO] 2017-03-09 13:31:51,905: topic[/play] removing connection to http://10.42.0.1:43304/
+[rospy.internal][ERROR] 2017-03-09 13:31:51,907: Unable to initiate TCP/IP socket to 10.42.0.1:42061 (http://10.42.0.1:43304/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-03-09 13:31:51,912: topic[/playfile] removing connection to http://10.42.0.1:43304/
+[rospy.internal][ERROR] 2017-03-09 13:31:51,913: Unable to initiate TCP/IP socket to 10.42.0.1:42061 (http://10.42.0.1:43304/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 632, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.impl.masterslave][INFO] 2017-03-09 13:31:51,913: signal-2
+[rospy.core][INFO] 2017-03-09 13:31:52,489: signal_shutdown [atexit]

@@ -1,0 +1,38 @@
+[INFO] [1489085158.061597]: /state_follow_waypoint parse_msg_to_state: Following_waypoint,RESET
+[INFO] [1489085158.062967]: /state_follow_waypoint cmd_callback: Following_waypoint,RESET
+[INFO] [1489085158.064012]: /mavros/set_mode: HOLD
+[INFO] [1489085158.080825]: /mavros/cmd/arming: False
+[INFO] [1489085158.082254]: /state_follow_waypoint parse_msg_to_state: Following_waypoint,START
+[INFO] [1489085158.083392]: /state_follow_waypoint cmd_callback: Following_waypoint,START
+[INFO] [1489085158.084493]: state_start
+[INFO] [1489085158.085928]: /mavros/set_mode: HOLD
+[INFO] [1489085158.098136]: /mavros/cmd/arming: False
+HERE 1
+[INFO] [1489085158.105907]: /mavros/mission/set_current: 0
+[INFO] [1489085158.132444]: success: True
+HERE 2
+[INFO] [1489085158.135532]: /mavros/set_mode: AUTO
+[INFO] [1489085158.144800]: /mavros/cmd/arming: True
+[INFO] [1489085158.244846]: success: True
+result: 0
+[INFO] [1489085158.246435]: Driving to waypoint. Status: 120
+[INFO] [1489085160.247590]: Driving to waypoint. Status: 119
+[INFO] [1489085162.247540]: Driving to waypoint. Status: 118
+[INFO] [1489085164.246864]: Driving to waypoint. Status: 117
+[INFO] [1489085166.246883]: Driving to waypoint. Status: 116
+[INFO] [1489085168.248845]: Driving to waypoint. Status: 115
+[INFO] [1489085170.248768]: Driving to waypoint. Status: 114
+[INFO] [1489085172.248783]: Driving to waypoint. Status: 113
+[INFO] [1489085174.247466]: Driving to waypoint. Status: 112
+[INFO] [1489085176.248676]: Driving to waypoint. Status: 111
+[INFO] [1489085178.248695]: Driving to waypoint. Status: 110
+[INFO] [1489085180.246812]: Driving to waypoint. Status: 109
+[INFO] [1489085182.248860]: Driving to waypoint. Status: 108
+[INFO] [1489085184.248684]: Driving to waypoint. Status: 107
+[INFO] [1489085186.247326]: Driving to waypoint. Status: 106
+[INFO] [1489085188.248522]: Driving to waypoint. Status: 105
+[INFO] [1489085190.248879]: Driving to waypoint. Status: 104
+[INFO] [1489085192.247614]: Driving to waypoint. Status: 103
+[INFO] [1489085194.247004]: Driving to waypoint. Status: 102
+[INFO] [1489085196.248663]: /mavros/set_mode: HOLD
+[INFO] [1489085196.257308]: Service set_mode call failed: service [/mavros/set_mode] returned no response. Mode HOLD could not be set. Check that GPS is enabled.

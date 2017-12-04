@@ -1,0 +1,15 @@
+/home/robot/catkin_ws/src/robo_magellan/scripts/soundmapfiles.yaml
+[INFO] [1489093972.872359]: /chatty Play token: MANUAL
+[INFO] [1489093972.873843]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/manual.wav
+[INFO] [1489093973.029273]: /chatty Play token: DISARMED
+[INFO] [1489093973.030910]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[INFO] [1489094370.729249]: /chatty Play token: HOLD
+[INFO] [1489094370.730492]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[INFO] [1489094372.729459]: /chatty Play token: AUTO
+[INFO] [1489094372.730870]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/auto.wav
+[INFO] [1489094377.983588]: /chatty Play token: ARMED
+[INFO] [1489094377.985131]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/armed.wav
+[INFO] [1489094490.729703]: /chatty Play token: HOLD
+[INFO] [1489094490.731129]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[INFO] [1489094496.728941]: /chatty Play token: DISARMED
+[INFO] [1489094496.730318]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
